@@ -39,7 +39,7 @@ Performance is a huge subject, but it's not always a "back-end" or an "admin" su
 
 ### How to use?
 
-For each rule, you will have a paragraph explaining *why* this rule is importante and *how* you can correct it. For more deep information, you should find links that will point to 🛠 tools or 📖 articles that can complete the checklist.
+For each rule, you will have a paragraph explaining *why* this rule is importante and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools or 📖 articles that can complete the checklist.
 
 ### Performance tools
 
@@ -70,7 +70,7 @@ List of the tools you can use to test or monitor your website or application:
     > Removing all unnecessary spaces, comments and break will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
 
     *How:*
-    > Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
+    > ⁃ Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
 
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
     * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
@@ -81,7 +81,7 @@ List of the tools you can use to test or monitor your website or application:
     > Comments are not really useful for the user then should be removed from production files. One case where you want to keep comments could be if you need to keep the origin for a library.
 
     *How:*
-    > Most of the time, comments can be removed using an HTML minify plugin.
+    > ⁃ Most of the time, comments can be removed using an HTML minify plugin.
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
@@ -103,7 +103,7 @@ List of the tools you can use to test or monitor your website or application:
     > Type attributes are not necessary as HTML5 implies text/css and text/javascript as defaults. Unused code should be removed when not used by your website or app as they add more weight to your pages.
 
     *How:*
-    > Ensure that all your `<link>` and `<script>` tags don't have any type attribute.
+    > ⁃ Ensure that all your `<link>` and `<script>` tags don't have any type attribute.
 
     * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
@@ -125,13 +125,14 @@ List of the tools you can use to test or monitor your website or application:
     > Having your CSS tags before any JavaScript enables better, parallel download which speed up browser rendering time.
 
     *How:*
-    > Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
+    > ⁃ Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
 
     * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
 - [ ] **Minimize the number of iframes:** Use iframes only if you don't have any other technical possibility. Try to avoid as much as you can iframes.
 
 **[⬆ back to top](#table-of-contents)**
+
 ## CSS
 
 ![css]
@@ -197,10 +198,10 @@ List of the tools you can use to test or monitor your website or application:
 
     * 🛠 [long vs short class · jsPerf](https://jsperf.com/long-vs-short-class)
 
-- [ ] **Unused CSS:** Remove unused CSS.
+- [ ] **Unused CSS:** Remove unused CSS selectors.
 
     *Why:*
-    > Removing unused CSS can reduce the size of your files and then speed up the load of your assets.
+    > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
 
     *How:*
     > ⁃ ⚠️ Always check if the framework CSS you want to use don't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
@@ -221,6 +222,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
     * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
     * 📖 [Inlining critical CSS for better web performance | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
+     * 📖 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
 
 - [ ] **Embedded or inline CSS:** Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
 
@@ -232,7 +234,7 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
-- [ ] **Analyse stylesheets complexity:**
+- [ ] **Analyse stylesheets complexity:** Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
 
     *Why:*
     > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
@@ -245,6 +247,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
 
 **[⬆ back to top](#table-of-contents)**
+
 ## Fonts
 
 ![fonts]
@@ -287,6 +290,7 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
 
 **[⬆ back to top](#table-of-contents)**
+
 ## Images
 
 ![images]
@@ -364,6 +368,7 @@ List of the tools you can use to test or monitor your website or application:
      * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 **[⬆ back to top](#table-of-contents)**
+
 ## JavaScript
 
 ![javascript]
@@ -470,6 +475,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
 
 **[⬆ back to top](#table-of-contents)**
+
 ## Server
 
 ![server-side]
@@ -503,6 +509,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Serve reachable files:** Avoid requesting unreachable files (404).
 
 **[⬆ back to top](#table-of-contents)**
+
 ---
 ## Performances and JS Frameworks
 
