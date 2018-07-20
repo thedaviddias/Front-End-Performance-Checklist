@@ -281,6 +281,10 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
     * 📖 [Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
 
+- [ ] **Webfont size:** Webfont sizes don't exceed 300kb (all variants included)
+
+ * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
+
 **[⬆ back to top](#table-of-contents)**
 ## Images
 
@@ -328,9 +332,6 @@ List of the tools you can use to test or monitor your website or application:
     > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
 
 * [ ] **Avoid using Base64 images:** Repeated tiny images can be convert to base64 to avoid multiple requests.
-
-    *Why:*
-    >
 
  * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
  * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
@@ -473,6 +474,8 @@ List of the tools you can use to test or monitor your website or application:
 **[⬆ back to top](#table-of-contents)**
 ## Server
 
+![server-side]
+
 - [ ] **Page load times < 3 seconds:** Reduce as much as possible your page load times to quickly deliver your content to your users.
 
     *Why:*
@@ -489,6 +492,13 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
+
+- [ ] **Minimizing HTTP requests:** Always ensure that every file requested are essential for you website or application.
+
+- [ ] **Use a CDN to deliver your assets:** Use a CDN to deliver faster your content over the world.
+
+ * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
+ * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
 **[⬆ back to top](#table-of-contents)**
 
