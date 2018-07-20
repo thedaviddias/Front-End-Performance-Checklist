@@ -30,9 +30,8 @@
 3. **[Fonts](#fonts)**
 4. **[Images](#images)**
 5. **[JavaScript](#javascript)**
-6. **[Content](#content) (in progress)**
-7. **[Server](#server) (in progress)**
-8. **[JS Frameworks](#js-frameworks) (in progress)**
+6. **[Server](#server) (in progress)**
+7. **[JS Frameworks](#js-frameworks) (in progress)**
 
 ## Introduction
 
@@ -129,6 +128,8 @@ List of the tools you can use to test or monitor your website or application:
     > Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
 
     * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
+
+- [ ] **Minimize the number of iframes:** Use iframes only if you don't have any other technical possibility. Try to avoid as much as you can iframes.
 
 **[⬆ back to top](#table-of-contents)**
 ## CSS
@@ -441,6 +442,7 @@ List of the tools you can use to test or monitor your website or application:
     > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
 
  * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
+ * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
 
 - [ ] **Check dependencies size limit:** Ensure to use wisely external librairies, most of the time, you can use a lighter library for a same functionnality.
 
@@ -466,10 +468,6 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
     * 📖 [How to Record Heap Snapshots  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots)
     * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
-
-**[⬆ back to top](#table-of-contents)**
-## Content
-
 
 **[⬆ back to top](#table-of-contents)**
 ## Server
@@ -500,8 +498,11 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-**[⬆ back to top](#table-of-contents)**
+- [ ] **Serve files from the same protocole:** Avoid having your website using HTTPS and serve files coming from source using HTTP.
 
+- [ ] **Serve reachable files:** Avoid requesting unreachable files (404).
+
+**[⬆ back to top](#table-of-contents)**
 ---
 ## Performances and JS Frameworks
 
@@ -540,6 +541,10 @@ This project exists thanks to all the people who contribute. [[Contribute]](.git
 ## License
 
 [MIT](LICENCE.md)
+
+All icons are provided by [Icons8](https://icons8.com/)
+
+**[⬆ back to top](#table-of-contents)**
 
 [logo]: images/logo-front-end-performance-checklist.jpg
 [html]: images/html.png
