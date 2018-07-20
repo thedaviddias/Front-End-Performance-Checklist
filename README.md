@@ -453,6 +453,20 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
  * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
+- [ ] **JavaScript Profiling:** Check for performance problems in your JavaScript files (and CSS too).
+
+    *Why:*
+    > JavaScript complexity can slow down runtime performance. Identifing these possible issues are essential to offer the smoothest user experience.
+
+    *How:*
+    > ⁃ Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
+    ⁃ 
+
+     * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
+    * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
+    * 📖 [How to Record Heap Snapshots  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots)
+    * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
+
 **[⬆ back to top](#table-of-contents)**
 ## Content
 
