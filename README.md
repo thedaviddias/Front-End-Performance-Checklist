@@ -424,31 +424,6 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-* [ ] **Cookie size:** If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
-
-    *Why:*
-    > cookies is exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
-
-    *How:*
-    > ⁃ Eliminate unnecessary cookies
-
-    * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
-    * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-    * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
-    * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
-    * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
-
-- [ ] **Webpage size < 1500 KB:** (but ideally < 500 KB) Reduce the size of your page + resources as much as you can.
-
-    *Why:*
-    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending your target users, connexion, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
-
-    *How:*
-    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
-
- * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
- * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
-
 - [ ] **Check dependencies size limit:** Ensure to use wisely external librairies, most of the time, you can use a lighter library for a same functionnality.
 
     *Why:*
@@ -480,6 +455,17 @@ List of the tools you can use to test or monitor your website or application:
 
 ![server-side]
 
+- [ ] **Webpage size < 1500 KB:** (but ideally < 500 KB) Reduce the size of your page + resources as much as you can.
+
+    *Why:*
+    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending your target users, connexion, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
+
+    *How:*
+    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
+
+ * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
+ * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
+
 - [ ] **Page load times < 3 seconds:** Reduce as much as possible your page load times to quickly deliver your content to your users.
 
     *Why:*
@@ -497,6 +483,20 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
 
+* [ ] **Cookie size:** If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+
+    *Why:*
+    > cookies is exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+
+    *How:*
+    > ⁃ Eliminate unnecessary cookies
+
+    * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
+    * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+    * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
+    * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
+    * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
+
 - [ ] **Minimizing HTTP requests:** Always ensure that every file requested are essential for you website or application.
 
 - [ ] **Use a CDN to deliver your assets:** Use a CDN to deliver faster your content over the world.
@@ -504,9 +504,15 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve files from the same protocole:** Avoid having your website using HTTPS and serve files coming from source using HTTP.
+- [ ] **Serve files from the same protocol:** Avoid having your website using HTTPS and serve files coming from source using HTTP.
 
 - [ ] **Serve reachable files:** Avoid requesting unreachable files (404).
+
+- [ ] **Set HTTP cache headers properly:** Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+
+- [ ] **GZIP compression is enable:**
+
+ * 📖 [Check GZIP compression](https://checkgzipcompression.com/)
 
 **[⬆ back to top](#table-of-contents)**
 
