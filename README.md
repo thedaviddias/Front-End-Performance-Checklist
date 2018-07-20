@@ -479,11 +479,16 @@ List of the tools you can use to test or monitor your website or application:
     > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
     
     *How:*
-    >  ⁃ Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what takes too much weight and use the Front-End Performance Checklist to improve your load times.
+    >  ⁃ Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
 
  * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
  * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/?_ga=1.155316027.1489996091.1482187369)
  * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
+
+- [ ] **Time To First Byte < 1.3 seconds:** Reduce as much as you can the time your browser waits before receiving data.
+
+    * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
+    * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
 
 **[⬆ back to top](#table-of-contents)**
 
