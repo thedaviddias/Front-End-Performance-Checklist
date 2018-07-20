@@ -460,7 +460,6 @@ List of the tools you can use to test or monitor your website or application:
 
     *How:*
     > ⁃ Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
-    ⁃ 
 
      * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
     * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
@@ -474,6 +473,17 @@ List of the tools you can use to test or monitor your website or application:
 **[⬆ back to top](#table-of-contents)**
 ## Server
 
+- [ ] **Page load times < 3 seconds:** Reduce as much as possible your page load times to quickly deliver your content to your users.
+
+    *Why:*
+    > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
+    
+    *How:*
+    >  ⁃ Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what takes too much weight and use the Front-End Performance Checklist to improve your load times.
+
+ * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
+ * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/?_ga=1.155316027.1489996091.1482187369)
+ * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
 **[⬆ back to top](#table-of-contents)**
 
