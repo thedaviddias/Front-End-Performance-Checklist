@@ -120,7 +120,7 @@ List of the tools you can use to test or monitor your website or application:
     *How:*
     > ⁃ Ensure that all your `<link>` and `<script>` tags don't have any type attribute.
 
-    * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
+        * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
 - [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
 
@@ -182,8 +182,8 @@ List of the tools you can use to test or monitor your website or application:
     > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files.
     ⁃ Ensure, of course, that concatenation does not break your project.
 
- * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
- * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
+    * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
+    * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
 - [ ] **Non-blocking:** ![high] CSS files need to be non-blocking to prevent the DOM from taking time to load.
 
@@ -277,10 +277,10 @@ List of the tools you can use to test or monitor your website or application:
     *How:*
     > ⁃ Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
 
- * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
-  * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
- * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
- * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
+    * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
+    * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
+    * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
+    * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
 
 - [ ] **Use `preconnect` to load your fonts faster:** ![medium]
 
@@ -447,9 +447,9 @@ List of the tools you can use to test or monitor your website or application:
     *How:*
     > ⁃ Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
 
- * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
- * 📖 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
- * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
+    * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
+    * 📖 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
+    * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
 - [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
 
@@ -478,8 +478,8 @@ List of the tools you can use to test or monitor your website or application:
     *How:*
     > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
 
- * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
- * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
+    * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
+    * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
 
 - [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
 
@@ -489,9 +489,9 @@ List of the tools you can use to test or monitor your website or application:
     *How:*
     >  ⁃ Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
 
- * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
- * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/?_ga=1.155316027.1489996091.1482187369)
- * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
+    * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
+    * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/?_ga=1.155316027.1489996091.1482187369)
+    * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
 - [ ] **Time To First Byte < 1.3 seconds:** ![high] Reduce as much as you can the time your browser waits before receiving data.
 
