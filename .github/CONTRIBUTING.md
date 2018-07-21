@@ -2,7 +2,7 @@
 
 ## Introduction
 
-First, thank you for considering contributing to front-end-checklist! It's people like you that make the open source community such a great community! 😊
+First, thank you for considering contributing to the Front-End Performance Checklist! It's people like you that make the open source community such a great community! 😊
 
 We welcome any type of contribution, not only code. You can help with
 - **QA**: file bug reports, the more details you can give the better (e.g. screenshots with the console open)
