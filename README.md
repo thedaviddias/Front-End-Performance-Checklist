@@ -23,8 +23,12 @@
 </p>
 
 <p align="center">
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#contributing">Contributing</a>
+  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a>
+</p>
+<p align="center">
+    <span>Other Checklists:</span>
+    <br>
+  <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Front-End Checklist</a> • <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Front-End Design Checklist</a>
 </p>
 
 ## Table of Contents
@@ -59,6 +63,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+ * 📖 [Pagespeed - The tool and optimization guide](https://varvy.com/pagespeed/)
  * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
  * 📖 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
 
@@ -528,6 +533,8 @@ List of the tools you can use to test or monitor your website or application:
 
 ---
 ## Performances and JS Frameworks
+
+### Vue
 
 ### React
 
