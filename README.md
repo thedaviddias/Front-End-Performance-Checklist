@@ -1,4 +1,8 @@
 <h1 align="center">
+<br>
+  <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170">
+  <br>
+    <br>
   Front-End Performance Checklist
   <br>
 </h1>
