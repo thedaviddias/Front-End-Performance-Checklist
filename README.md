@@ -120,7 +120,7 @@ List of the tools you can use to test or monitor your website or application:
     *How:*
     > ⁃ Ensure that all your `<link>` and `<script>` tags don't have any type attribute.
 
-        * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
+    * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
 - [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
 
@@ -160,8 +160,8 @@ List of the tools you can use to test or monitor your website or application:
     *How:*
     > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
 
-      * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
-      *  🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
+    * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
+    * 🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
 
 - [ ] **Concatenation:** ![medium] CSS files are concatenated in a single file *(Not always valid for HTTP/2)*.
 
