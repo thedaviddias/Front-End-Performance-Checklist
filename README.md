@@ -100,7 +100,7 @@ List of the tools you can use to test or monitor your website or application:
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
-- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"' or `type="text/css anymore and should be removed.
+- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` anymore and should be removed.
 
     ```html
     <!-- Before HTML5 -->
