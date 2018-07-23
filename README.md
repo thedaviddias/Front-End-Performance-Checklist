@@ -11,13 +11,13 @@
 <p align="center">One simple rule: "Design and code with performance in mind"</p>
 
 <p align="center">
-  <a href=“http://makeapullrequest.com">
+  <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
-  <a href=“https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link">
+  <a href="https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link">
     <img src="https://img.shields.io/badge/chat-on_gitter-008080.svg?style=flat-square" alt="Gitter">
   </a>
-    <a href=“https://opensource.org/licenses/MIT">
+    <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Licence MIT">
   </a>
 </p>
@@ -100,7 +100,7 @@ List of the tools you can use to test or monitor your website or application:
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
-- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"' or `type="text/css anymore and should be removed.
+- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` anymore and should be removed.
 
     ```html
     <!-- Before HTML5 -->
