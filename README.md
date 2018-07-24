@@ -551,6 +551,8 @@ List of the tools you can use to test or monitor your website or application:
 
 The Front-End Performance Checklist wants to also be available in other languages! Don't hesitate to submit your contribution!
 
+* 🇵🇹 Portuguese: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
+
 ## Contributing
 
 **Open an issue or a pull request to suggest changes or additions.**
