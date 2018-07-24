@@ -63,6 +63,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+ * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
  * 📖 [Pagespeed - The tool and optimization guide](https://varvy.com/pagespeed/)
  * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
  * 📖 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
