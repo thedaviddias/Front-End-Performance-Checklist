@@ -47,9 +47,9 @@ Performance is a huge subject, but it's not always a "back-end" or an "admin" su
 
 ### How to use?
 
-For each rule, you will have a paragraph explaining *why* this rule is importante and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There is 3 levels of priority / impact:
+All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority / impact:
 
 * ![Low][low] means that the item has a **low** priority and impact on your project.
 * ![Medium][medium] means that the item has a **medium** priority and impact on your project. You shouldn't avoid tackling that item.
@@ -63,10 +63,11 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
- * 🛠 [Calibre](https://calibreapp.com/)
+ * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
  * 📖 [Pagespeed - The tool and optimization guide](https://varvy.com/pagespeed/)
  * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
- * 📖 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
+ * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
+ * 🛠 [Calibre](https://calibreapp.com/)
 
 ### References
 
@@ -156,7 +157,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
 
     *Why:*
-    > When CSS files are minified, the content is loaded faster and less data are send to the client. It's important to always minified CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
+    > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
 
     *How:*
     > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
@@ -207,7 +208,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Length of CSS classes:** ![low] The length of your classes can have an (slight) impact on your HTML and CSS files (eventually).
 
     *Why:*
-    > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. If you are using BEM, in some cases, you can ended up with classes having more characters than need. It's always important to choose wisely your names and namespaces.
+    > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. If you are using BEM, in some cases, you can end up with classes having more characters than needed. It's always important to choose wisely your names and namespaces.
 
     *How:*
     > ⁃ Setting a limit in terms of number of characters could be interesting for some people, but ensuring that you broke down your website in components can help to reduce the amount of classes (and declarations) and the length of your classes.
@@ -243,7 +244,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
 
     *Why:*
-    > One of the first reason it's because it's a good practice to **separate content from design**. It also help you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decrease the file-size of your HTML pages and the load time.
+    > One of the first reason it's because it's a good practice to **separate content from design**. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decreases the file-size of your HTML pages and the load time.
 
     *How:*
     > ⁃ Always use external stylesheets or embed CSS in your `<head>` (and follow the others CSS performance rules)
@@ -290,7 +291,7 @@ List of the tools you can use to test or monitor your website or application:
     ```
 
     *Why:*
-    > When you arrived on a website, your device needs to find out where you site live and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the ressource (fonts, CSS files...). Prefetches and preconnects allow the browser
+    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the ressource (fonts, CSS files...). Prefetches and preconnects allow the browser
 
     *How:*
     > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website.
@@ -422,11 +423,11 @@ List of the tools you can use to test or monitor your website or application:
     ```
 
     *Why:*
-    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fech and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
+    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
 
     *How:*
     > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag.
-    ⁃ If your have small scripts, maybe use inline script place above async scripts.
+    ⁃ If you have small scripts, maybe use inline script place above async scripts.
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
@@ -436,12 +437,12 @@ List of the tools you can use to test or monitor your website or application:
     > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
 
     *How:*
-    > ⁃ If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your librairies.
+    > ⁃ If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
 
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external librairies, most of the time, you can use a lighter library for a same functionnality.
+- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
 
     *Why:*
     > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
@@ -456,7 +457,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
 
     *Why:*
-    > JavaScript complexity can slow down runtime performance. Identifing these possible issues are essential to offer the smoothest user experience.
+    > JavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience.
 
     *How:*
     > ⁃ Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
@@ -475,7 +476,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Webpage size < 1500 KB:** ![high] (but ideally < 500 KB) Reduce the size of your page + resources as much as you can.
 
     *Why:*
-    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending your target users, connexion, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
+    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, connexion, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
 
     *How:*
     > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
@@ -503,7 +504,7 @@ List of the tools you can use to test or monitor your website or application:
 * [ ] **Cookie size:** ![medium] If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
 
     *Why:*
-    > cookies is exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+    > cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
 
     *How:*
     > ⁃ Eliminate unnecessary cookies
@@ -514,7 +515,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
     * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for you website or application.
+- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
 
 - [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
 
@@ -527,7 +528,7 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
 
-- [ ] **GZIP compression is enable:** ![high]
+- [ ] **GZIP compression is enabled:** ![high]
 
  * 📖 [Check GZIP compression](https://checkgzipcompression.com/)
 
