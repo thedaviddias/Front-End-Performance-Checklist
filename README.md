@@ -328,6 +328,9 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
     * 🛠 [TinyJPG – Compress JPEG images intelligently](https://tinyjpg.com/)
+    * 🛠 [Kraken.io - Online Image Optimizer](https://kraken.io/web-interface)
+    * 🛠 [Compressor.io - optimize and compress JPEG photos and PNG images](https://compressor.io/compress)
+    * 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
 
 
 * [ ] **Images format:** ![high] Choose your image format appropriately.
@@ -371,6 +374,7 @@ List of the tools you can use to test or monitor your website or application:
     ⁃ Use a JavaScript plugin like to lazyload your images.
 
     * 🛠 [verlok/lazyload: Github](https://github.com/verlok/lazyload)
+    * 🛠 [aFarkas/lazysizes: Github](https://github.com/aFarkas/lazysizes/)
     * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
     * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
