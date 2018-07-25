@@ -483,7 +483,7 @@ List of the tools you can use to test or monitor your website or application:
 
 ![server-side]
 
-- [ ] **Page weight < 1500 KB:** ![high] (but ideally < 500 KB) Reduce the size of your page + resources as much as you can.
+- [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
 
     *Why:*
     > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, connexion, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
