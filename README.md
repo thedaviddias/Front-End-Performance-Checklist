@@ -542,9 +542,11 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
 
-- [ ] **GZIP compression is enabled:** ![high]
+- [ ] **GZIP / Brotli compression is enabled:** ![high]
 
- * 📖 [Check GZIP compression](https://checkgzipcompression.com/)
+ * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
+ * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
+ * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
 
 **[⬆ back to top](#table-of-contents)**
 
