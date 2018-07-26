@@ -68,6 +68,7 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
  * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
  * 🛠 [Calibre](https://calibreapp.com/)
+ * 🛠 [Website Speed Test | Check Web Performance &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
  * 🛠 [Website and Server Uptime Monitoring - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Free Signup Link](https://www.pingdom.com/free))
  * 🛠 [Uptime Robot](https://uptimerobot.com)
  
