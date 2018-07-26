@@ -172,11 +172,11 @@ List of the tools you can use to test or monitor your website or application:
     ```html
 
     <!-- Not recommended -->
-    <script src="foo.js"></script>
-    <script src="ajax.js"></script>
+    <link rel="stylesheet" href="foo.css"/>
+    <link rel="stylesheet" href="bar.css"/>
 
     <!-- Recommended -->
-    <script src="combined.js"></script>
+    <link rel="stylesheet" href="foobar.css"/>
     ```
 
     *Why:*
