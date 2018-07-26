@@ -294,7 +294,7 @@ List of the tools you can use to test or monitor your website or application:
     ```
 
     *Why:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the ressource (fonts, CSS files...). Prefetches and preconnects allow the browser
+    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser
 
     *How:*
     > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website.
@@ -414,7 +414,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
     * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
 
-* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embed in the middle of your body. Regroupe your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
+* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
 
     *Why:*
     > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
