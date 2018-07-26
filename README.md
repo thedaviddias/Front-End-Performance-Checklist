@@ -92,6 +92,7 @@ List of the tools you can use to test or monitor your website or application:
     > ⁃ Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
 
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
+    * 🛠 [Online HTML Compressor](http://refresh-sf.com)
     * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
 
 - [ ] **Remove unnecessary comments:** ![low] Ensure that comments are removed from your pages.
@@ -166,6 +167,8 @@ List of the tools you can use to test or monitor your website or application:
 
     * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
     * 🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
+    * 🛠 [Online CSS Compressor](http://refresh-sf.com)
+
 
 - [ ] **Concatenation:** ![medium] CSS files are concatenated in a single file *(Not always valid for HTTP/2)*.
 
@@ -411,7 +414,8 @@ List of the tools you can use to test or monitor your website or application:
     *How:*
     > ⁃ Use the tools suggested below to minify your files automatically before or during your build or your deployment.
 
-    * 📖 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
+    * 🛠 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
+    * 🛠 [Online JavaScript Compressor](http://refresh-sf.com)
     * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
 
 * [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
