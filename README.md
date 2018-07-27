@@ -300,7 +300,7 @@ List of the tools you can use to test or monitor your website or application:
     ```
 
     *Why:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser
+    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files, etc.). Prefetches and preconnects allow the browser
 
     *How:*
     > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website.
