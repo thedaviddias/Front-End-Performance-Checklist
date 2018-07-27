@@ -49,11 +49,11 @@ Performance is a huge subject, but it's not always a "back-end" or an "admin" su
 
 For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority / impact:
+All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority:
 
-* ![Low][low] means that the item has a **low** priority and impact on your project.
-* ![Medium][medium] means that the item has a **medium** priority and impact on your project. You shouldn't avoid tackling that item.
-* ![High][high] means that the item has a **high** priority and impact on your project. You can't avoid following that rule and implement the corrections recommended.
+* ![Low][low] means that the item has a **low** priority.
+* ![Medium][medium] means that the item has a **medium** priority. You shouldn't avoid tackling that item.
+* ![High][high] means that the item has a **high** priority. You can't avoid following that rule and implement the corrections recommended.
 
 ### Performance tools
 
