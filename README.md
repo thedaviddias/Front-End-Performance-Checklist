@@ -27,12 +27,11 @@
 </p>
 
 <p align="center">
-  <a href=“https://github.com/JohnsenZhou/Front-End-Performance-Checklist">🇨🇳</a>
-  <a href=“https://github.com/WilliamDASILVA/Front-End-Performance-Checklist">🇫🇷</a>
-  <a href=“https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
-  <a href=“https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
+  <a href="https://github.com/JohnsenZhou/Front-End-Performance-Checklist">🇨🇳 ▶︎</a>
+  <a href="https://github.com/WilliamDASILVA/Front-End-Performance-Checklist">🇫🇷 ▶︎</a>
+  <a href="https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹 ▶︎</a>
+  <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺 ▶︎</a>
 </p>
-<br>
 
 <p align="center">
     <span>Other Checklists:</span>
