@@ -113,12 +113,12 @@ List of the tools you can use to test or monitor your website or application:
     ```html
     <!-- Before HTML5 -->
     <script type="text/javascript">
-        // Javascript code
+        // JavaScript code
     </script>
 
     <!-- Today -->
     <script>
-        // Javascript code
+        // JavaScript code
     </script>
     ```
 
@@ -450,7 +450,7 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
 
-* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla Javascript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
+* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
     *Why:*
     > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
