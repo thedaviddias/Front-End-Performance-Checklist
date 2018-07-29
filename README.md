@@ -256,6 +256,8 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
     * 📖 [Inlining critical CSS for better web performance | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
      * 🛠 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
+     * 📖 [Reduce the size of the above-the-fold content
+](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
 
 - [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
 
