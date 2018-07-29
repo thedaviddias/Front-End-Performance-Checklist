@@ -296,7 +296,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Use `preconnect` to load your fonts faster:** ![medium]
 
     ```html
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" as="font" crossorigin>
     ```
 
     *Why:*
