@@ -265,7 +265,7 @@ List of the tools you can use to test or monitor your website or application:
     > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
 
     *How:*
-    > ⁃ Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed above can also help you analysing and correct your code.
+    > ⁃ Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analysing and correct your code.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 📖 [CSS Stats](https://cssstats.com/)
