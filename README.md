@@ -274,7 +274,7 @@ List of the tools you can use to test or monitor your website or application:
     > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
 
     *How:*
-    > ⁃ Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed above can also help you analysing and correct your code.
+    > ⁃ Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analysing and correct your code.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 📖 [CSS Stats](https://cssstats.com/)
@@ -396,8 +396,8 @@ List of the tools you can use to test or monitor your website or application:
     > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**.
     ⁃ Use a JavaScript plugin like to lazyload your images.
 
-    * 🛠 [verlok/lazyload: Github](https://github.com/verlok/lazyload)
-    * 🛠 [aFarkas/lazysizes: Github](https://github.com/aFarkas/lazysizes/)
+    * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
+    * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
     * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
     * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
