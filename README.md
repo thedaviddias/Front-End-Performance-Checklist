@@ -311,9 +311,9 @@ List of the tools you can use to test or monitor your website or application:
     > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser
 
     *How:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website.
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested.
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too.
+    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
+    ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
+    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
 
     * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
     * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
@@ -343,9 +343,9 @@ List of the tools you can use to test or monitor your website or application:
     > Optimized images load faster in your browser and consume less data.
 
     *How:*
-    > ⁃ Try using CSS3 effects when it's possible (instead of a small image)
-    ⁃ When it's possible, use fonts instead of text encoded in your images
-    ⁃ Use SVG
+    > ⁃ Try using CSS3 effects when it's possible (instead of a small image) <br>
+    ⁃ When it's possible, use fonts instead of text encoded in your images <br>
+    ⁃ Use SVG <br>
     ⁃ Use a tool and specify a level compression under 85.
 
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
@@ -406,7 +406,7 @@ List of the tools you can use to test or monitor your website or application:
     > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
 
     *How:*
-    > ⁃ Create different image sizes for the devices you want to target.
+    > ⁃ Create different image sizes for the devices you want to target. <br>
     ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
 
      * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
