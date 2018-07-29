@@ -25,6 +25,15 @@
 <p align="center">
   <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
+
+<p align="center">
+  <a href=“https://github.com/JohnsenZhou/Front-End-Performance-Checklist">🇨🇳</a>
+  <a href=“https://github.com/WilliamDASILVA/Front-End-Performance-Checklist">🇫🇷</a>
+  <a href=“https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
+  <a href=“https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
+</p>
+<br>
+
 <p align="center">
     <span>Other Checklists:</span>
     <br>
@@ -58,7 +67,7 @@ All items in the **Front-End Performance Checklist** are essentials to achieve t
 ### Performance tools
 
 List of the tools you can use to test or monitor your website or application:
- 
+
  * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
@@ -73,7 +82,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Uptime Robot](https://uptimerobot.com)
  * 🛠 [SpeedCurve: Monitor front-end performance](https://speedcurve.com)
  * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
- 
+
 ### References
 
  * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4)
@@ -315,7 +324,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
 
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
- 
+
 - [ ] **Prevent Flash of Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
 
  * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
@@ -508,7 +517,7 @@ List of the tools you can use to test or monitor your website or application:
 
     *Why:*
     > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
-    
+
     *How:*
     >  ⁃ Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
 
