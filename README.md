@@ -101,14 +101,14 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Remove unnecessary comments:** ![low] Ensure that comments are removed from your pages.
 
     *Why:*
-    > Comments are not really useful for the user then should be removed from production files. One case where you want to keep comments could be if you need to keep the origin for a library.
+    > Comments are not really useful for the user and should be removed from production files. One case where you want to keep comments could be if you need to keep the origin for a library.
 
     *How:*
     > ⁃ Most of the time, comments can be removed using an HTML minify plugin.
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
-- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` anymore and should be removed.
+- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` are not required anymore and should be removed.
 
     ```html
     <!-- Before HTML5 -->
