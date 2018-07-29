@@ -324,7 +324,7 @@ List of the tools you can use to test or monitor your website or application:
 
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
 
-- [ ] **Prevent Flash of Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
+- [ ] **Prevent Flash or Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
 
  * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
