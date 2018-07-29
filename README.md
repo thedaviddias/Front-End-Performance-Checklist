@@ -39,7 +39,7 @@
 4. **[Images](#images)**
 5. **[JavaScript](#javascript)**
 6. **[Server](#server) (in progress)**
-7. **[JS Frameworks](#js-frameworks) (in progress)**
+7. **[JS Frameworks](#performances-and-js-frameworks) (in progress)**
 
 ## Introduction
 
