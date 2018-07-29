@@ -443,10 +443,10 @@ List of the tools you can use to test or monitor your website or application:
 
     ```html
     <!-- Defer Attribute -->
-    <script defer src="foo.js">
+    <script defer src="foo.js"></script>
 
     <!-- Async Attribute -->
-    <script async src="foo.js">
+    <script async src="foo.js"></script>
     ```
 
     *Why:*
