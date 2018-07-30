@@ -388,14 +388,14 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
    * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
 
-* [ ] **Lazy loading:** ![medium] Images are lazyloaded (A noscript fallback is always provided).
+* [ ] **Lazy loading:** ![medium] Offscreen images are loaded lazily (A noscript fallback is always provided).
 
     *Why:*
     > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
 
     *How:*
     > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
-    ⁃ Use a JavaScript plugin like to lazyload your images.
+    ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
