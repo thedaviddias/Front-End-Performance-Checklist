@@ -394,8 +394,8 @@ List of the tools you can use to test or monitor your website or application:
     > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
 
     *How:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
-    ⁃ Use a JavaScript plugin like to lazyload your images.
+    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**.<br>
+    ⁃ Use a JavaScript plugin like the following to lazyload your images.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
