@@ -396,7 +396,8 @@ List of the tools you can use to test or monitor your website or application:
 
     *How:*
     > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
-    ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only.
+    ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only. <br>
+    ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
