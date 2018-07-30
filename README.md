@@ -29,6 +29,7 @@
 <p align="center">
   <a href="https://github.com/JohnsenZhou/Front-End-Performance-Checklist">🇨🇳</a>
   <a href="https://github.com/WilliamDASILVA/Front-End-Performance-Checklist">🇫🇷</a>
+  <a href="https://github.com/ParkSB/Front-End-Performance-Checklist">🇰🇷</a>  
   <a href="https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
   <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
 </p>
@@ -588,6 +589,7 @@ The Front-End Performance Checklist wants to also be available in other language
 * 🇨🇳 Chinese: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
 * 🇷🇺 Russian: [lex111/Front-End-Performance-Checklist](https://github.com/lex111/Front-End-Performance-Checklist)
 * 🇫🇷 French: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
+* 🇰🇷Korean: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
 
 ## Contributing
 
