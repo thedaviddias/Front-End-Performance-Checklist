@@ -652,7 +652,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 ## License
 
-[MIT](LICENCE.md)
+[MIT](LICENSE)
 
 All icons are provided by [Icons8](https://icons8.com/)
 
