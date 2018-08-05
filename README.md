@@ -82,6 +82,8 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Uptime Robot](https://uptimerobot.com)
  * 🛠 [SpeedCurve: Monitor front-end performance](https://speedcurve.com)
  * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
+ * 🛠 [Varvy - Page speed optimization]( https://varvy.com/pagespeed/)
+
 
 ### References
 
@@ -90,8 +92,8 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
  * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
  * 📖 [Front-End Performance Checklist 2018 [PDF, Apple Pages]](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/)
-  * 📖 [Designing for Performance Weighing Aesthetics and Speed - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
- 
+ * 📖 [Designing for Performance Weighing Aesthetics and Speed - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
+ * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
 ---
 
 ## HTML
@@ -466,6 +468,7 @@ List of the tools you can use to test or monitor your website or application:
     ⁃ If you have small scripts, maybe use inline script place above async scripts.
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
+    * 📖 [Defer loading javascript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
 * [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
@@ -537,6 +540,7 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
+    * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
     * 🛠 [Global latency testing tool](https://latency.apex.sh)
 
 * [ ] **Cookie size:** ![medium] If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
@@ -554,6 +558,9 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
 - [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
+ * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
+ * 📖 [Combine external javascript](https://varvy.com/pagespeed/combine-external-javascript.html)
+
 
 - [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
 
@@ -563,8 +570,11 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Serve files from the same protocol:** ![high] Avoid having your website using HTTPS and serve files coming from source using HTTP.
 
 - [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
+ * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
+
 
 - [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+ * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
 - [ ] **GZIP / Brotli compression is enabled:** ![high]
 
@@ -645,7 +655,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 ## License
 
-[MIT](LICENCE.md)
+[MIT](LICENSE)
 
 All icons are provided by [Icons8](https://icons8.com/)
 
