@@ -92,6 +92,7 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
  * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
  * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
+ * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
 ---
 
 ## HTML
@@ -584,13 +585,27 @@ List of the tools you can use to test or monitor your website or application:
 ---
 ## Performances and JS Frameworks
 
-### Vue
-
 ### React
 
  * 📖 [Optimizing Performance - React](https://reactjs.org/docs/optimizing-performance.html)
  * 📖 [React image manipulation | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
  * 📖 [Debugging React performance with React 16 and Chrome Devtools.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
+
+### Vue
+
+## Performances and CMS
+
+### Wordpress
+
+#### Articles
+
+ * 📖 [19 Tips to Speed Up WordPress Performance (Updated)](https://www.wpbeginner.com/wordpress-performance-speed/)
+ * 📖 [Speed Up Your WordPress - How to Save Images Optimized for Web](https://www.wpbeginner.com/beginners-guide/speed-wordpress-save-images-optimized-web/)
+
+#### Plugins recommended
+
+
+
 
 ---
 
