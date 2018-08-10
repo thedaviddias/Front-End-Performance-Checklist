@@ -466,7 +466,7 @@ List of the tools you can use to test or monitor your website or application:
     ⁃ If you have small scripts, maybe use inline script place above async scripts.
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
-    * 📖 [Defer loading javascript](https://varvy.com/pagespeed/defer-loading-javascript.html)
+    * 📖 [Defer loading JavaScript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
 * [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
@@ -557,7 +557,7 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
  * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
- * 📖 [Combine external javascript](https://varvy.com/pagespeed/combine-external-javascript.html)
+ * 📖 [Combine external JavaScript](https://varvy.com/pagespeed/combine-external-javascript.html)
 
 
 - [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
@@ -595,7 +595,7 @@ List of the tools you can use to test or monitor your website or application:
 
 ## Performances and CMS
 
-### Wordpress
+### WordPress
 
 #### Articles
 
@@ -617,7 +617,7 @@ The Front-End Performance Checklist wants to also be available in other language
 * 🇨🇳 Chinese: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
 * 🇷🇺 Russian: [lex111/Front-End-Performance-Checklist](https://github.com/lex111/Front-End-Performance-Checklist)
 * 🇫🇷 French: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
-* 🇰🇷Korean: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
+* 🇰🇷 Korean: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
 
 ## Contributing
 
