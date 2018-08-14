@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170">
+  <a href="#none"><img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170"></a>
   <br>
     <br>
   Front-End Performance Checklist
@@ -60,9 +60,9 @@ For each rule, you will have a paragraph explaining *why* this rule is important
 
 All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority:
 
-* ![Low][low] means that the item has a **low** priority.
-* ![Medium][medium] means that the item has a **medium** priority. You shouldn't avoid tackling that item.
-* ![High][high] means that the item has a **high** priority. You can't avoid following that rule and implement the corrections recommended.
+* [![low]](#none) means that the item has a **low** priority.
+* [![medium]](#none) means that the item has a **medium** priority. You shouldn't avoid tackling that item.
+* [![high]](#none) means that the item has a **high** priority. You can't avoid following that rule and implement the corrections recommended.
 
 ### Performance tools
 
@@ -97,9 +97,9 @@ List of the tools you can use to test or monitor your website or application:
 
 ## HTML
 
-![html]
+[![html]](#none)
 
-- [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Minified HTML:** [![medium]](#none) The HTML code is minified, comments, white spaces and new lines are removed from production files.
 
     *Why:*
     > Removing all unnecessary spaces, comments and break will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
@@ -111,7 +111,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [Online HTML Compressor](http://refresh-sf.com)
     * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
 
-- [ ] **Remove unnecessary comments:** ![low] Ensure that comments are removed from your pages.
+- [ ] **Remove unnecessary comments:** [![low]](#none) Ensure that comments are removed from your pages.
 
     *Why:*
     > Comments are not really useful for the user and should be removed from production files. One case where you want to keep comments could be if you need to keep the origin for a library.
@@ -121,7 +121,7 @@ List of the tools you can use to test or monitor your website or application:
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
-- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` are not required anymore and should be removed.
+- [ ] **Remove unnecessary attributes:** [![low]](#none) Type attributes like `type="text/javascript"` or `type="text/css"` are not required anymore and should be removed.
 
     ```html
     <!-- Before HTML5 -->
@@ -143,7 +143,7 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
-- [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
+- [ ] **Place CSS tags always before JavaScript tags:** [![high]](#none) Ensure that your CSS is always loaded before having JavaScript code.
 
     ```html
     <!-- Not recommended -->
@@ -165,15 +165,15 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
-- [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid as much as you can iframes.
+- [ ] **Minimize the number of iframes:** [![high]](#none) Use iframes only if you don't have any other technical possibility. Try to avoid as much as you can iframes.
 
 **[⬆ back to top](#table-of-contents)**
 
 ## CSS
 
-![css]
+[![css]](#none)
 
-- [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Minification:** [![high]](#none) All CSS files are minified, comments, white spaces and new lines are removed from production files.
 
     *Why:*
     > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
@@ -186,7 +186,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [Online CSS Compressor](http://refresh-sf.com)
 
 
-- [ ] **Concatenation:** ![medium] CSS files are concatenated in a single file *(Not always valid for HTTP/2)*.
+- [ ] **Concatenation:** [![medium]](#none) CSS files are concatenated in a single file *(Not always valid for HTTP/2)*.
 
     ```html
 
@@ -208,7 +208,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
     * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
-- [ ] **Non-blocking:** ![high] CSS files need to be non-blocking to prevent the DOM from taking time to load.
+- [ ] **Non-blocking:** [![high]](#none) CSS files need to be non-blocking to prevent the DOM from taking time to load.
 
     ```html
     <link rel="preload" href="global.min.css" as="style" onload="this.rel='stylesheet'">
@@ -226,7 +226,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
     * 📖 [Preload: What Is It Good For? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
 
-- [ ] **Length of CSS classes:** ![low] The length of your classes can have an (slight) impact on your HTML and CSS files (eventually).
+- [ ] **Length of CSS classes:** [![low]](#none) The length of your classes can have an (slight) impact on your HTML and CSS files (eventually).
 
     *Why:*
     > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. If you are using BEM, in some cases, you can end up with classes having more characters than needed. It's always important to choose wisely your names and namespaces.
@@ -236,7 +236,7 @@ List of the tools you can use to test or monitor your website or application:
 
     * 🛠 [long vs short class · jsPerf](https://jsperf.com/long-vs-short-class)
 
-- [ ] **Unused CSS:** ![medium] Remove unused CSS selectors.
+- [ ] **Unused CSS:** [![medium]](#none) Remove unused CSS selectors.
 
     *Why:*
     > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
@@ -249,7 +249,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
     * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
-* [ ] **CSS Critical:** ![high] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified if possible).
+* [ ] **CSS Critical:** [![high]](#none) The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified if possible).
 
     *Why:*
     > Inlining critical CSS help to speed up the rendering of the web pages reducing the number of requests to the server.
@@ -264,7 +264,7 @@ List of the tools you can use to test or monitor your website or application:
      * 📖 [Reduce the size of the above-the-fold content
 ](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
 
-- [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
+- [ ] **Embedded or inline CSS:** [![high]](#none) Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
 
     *Why:*
     > One of the first reason it's because it's a good practice to **separate content from design**. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decreases the file-size of your HTML pages and the load time.
@@ -274,7 +274,7 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
-- [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
+- [ ] **Analyse stylesheets complexity:** [![high]](#none) Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
 
     *Why:*
     > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
@@ -290,11 +290,11 @@ List of the tools you can use to test or monitor your website or application:
 
 ## Fonts
 
-![fonts]
+[![fonts]](#none)
 
 * 📖 [A Book Apart, Webfont Handbook](https://abookapart.com/products/webfont-handbook)
 
-- [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
+- [ ] **Webfont formats:** [![medium]](#none) You are using WOFF2 on your web project or application.
 
     *Why:*
     > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
@@ -308,7 +308,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
     * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
 
-- [ ] **Use `preconnect` to load your fonts faster:** ![medium]
+- [ ] **Use `preconnect` to load your fonts faster:** [![medium]](#none)
 
     ```html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -327,11 +327,11 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
     * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
 
-- [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
+- [ ] **Webfont size:** [![medium]](#none) Webfont sizes don't exceed 300kb (all variants included)
 
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
 
-- [ ] **Prevent Flash or Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
+- [ ] **Prevent Flash or Invisible Text:** [![medium]](#none) Avoid transparent text until the Webfont is loaded
 
  * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
@@ -340,11 +340,11 @@ List of the tools you can use to test or monitor your website or application:
 
 ## Images
 
-![images]
+[![images]](#none)
 
  * 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
 
-* [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
+* [ ] **Images optimization:** [![high]](#none) Your images are optimized, compressed without direct impact to the end user.
 
     *Why:*
     > Optimized images load faster in your browser and consume less data.
@@ -363,7 +363,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
 
 
-* [ ] **Images format:** ![high] Choose your image format appropriately.
+* [ ] **Images format:** [![high]](#none) Choose your image format appropriately.
 
     *Why:*
     > To ensure that your images don't slow your website, choose the format that will
@@ -377,24 +377,24 @@ List of the tools you can use to test or monitor your website or application:
      * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
      * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-- [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
+- [ ] **Use vector image vs raster/bitmap:** [![medium]](#none) Prefer using vector image rather than bitmap images (when possible).
 
     *Why:*
     > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
 
-* [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
+* [ ] **Images dimensions:** [![medium]](#none) Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
 
     *Why:*
     > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
 
-* [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
+* [ ] **Avoid using Base64 images:** [![medium]](#none) You could eventually convert tiny images to base64 but it's actually not the best practice.
 
     * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
     * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
     * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
    * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
 
-* [ ] **Lazy loading:** ![medium] Offscreen images are loaded lazily (A noscript fallback is always provided).
+* [ ] **Lazy loading:** [![medium]](#none) Offscreen images are loaded lazily (A noscript fallback is always provided).
 
     *Why:*
     > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
@@ -409,7 +409,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
     * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
-* [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
+* [ ] **Responsive images:** [![medium]](#none) Ensure to serve images that are close to your display size.
 
     *Why:*
     > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
@@ -424,9 +424,9 @@ List of the tools you can use to test or monitor your website or application:
 
 ## JavaScript
 
-![javascript]
+[![javascript]](#none)
 
-- [ ] **JS Minification:** ![high] All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
+- [ ] **JS Minification:** [![high]](#none) All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
 
     *Why:*
     > Removing all unnecessary spaces, comments and break will reduce the size of your JavaScript files and speed up your site's page load times and obviously lighten the download for your user.
@@ -438,7 +438,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [Online JavaScript Compressor](http://refresh-sf.com)
     * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
 
-* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
+* [ ] **No JavaScript inside:** [![medium]](#none) *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
 
     *Why:*
     > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
@@ -448,7 +448,7 @@ List of the tools you can use to test or monitor your website or application:
 
      * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
 
-* [ ] **Non-blocking JavaScript:** ![high] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **Non-blocking JavaScript:** [![high]](#none) JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
 
     ```html
     <!-- Defer Attribute -->
@@ -468,7 +468,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
     * 📖 [Defer loading javascript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
-* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
+* [ ] **Optimized and updated JS libraries:** [![medium]](#none) All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
     *Why:*
     > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
@@ -479,7 +479,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
+- [ ] **Check dependencies size limit:** [![low]](#none) Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
 
     *Why:*
     > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
@@ -491,7 +491,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
     * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-- [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
+- [ ] **JavaScript Profiling:** [![medium]](#none) Check for performance problems in your JavaScript files (and CSS too).
 
     *Why:*
     > JavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience.
@@ -508,9 +508,9 @@ List of the tools you can use to test or monitor your website or application:
 
 ## Server
 
-![server-side]
+[![server-side]](#none)
 
-- [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
+- [ ] **Page weight < 1500 KB (ideally < 500 KB):** [![high]](#none) Reduce the size of your page + resources as much as you can.
 
     *Why:*
     > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, network connection, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
@@ -522,7 +522,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
     * 🛠 [web - Measure full page size in Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
 
-- [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
+- [ ] **Page load times < 3 seconds:** [![high]](#none) Reduce as much as possible your page load times to quickly deliver your content to your users.
 
     *Why:*
     > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
@@ -534,14 +534,14 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
     * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
-- [ ] **Time To First Byte < 1.3 seconds:** ![high] Reduce as much as you can the time your browser waits before receiving data.
+- [ ] **Time To First Byte < 1.3 seconds:** [![high]](#none) Reduce as much as you can the time your browser waits before receiving data.
 
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
     * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
     * 🛠 [Global latency testing tool](https://latency.apex.sh)
 
-* [ ] **Cookie size:** ![medium] If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **Cookie size:** [![medium]](#none) If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
 
     *Why:*
     > cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
@@ -555,26 +555,26 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
     * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
+- [ ] **Minimizing HTTP requests:** [![high]](#none) Always ensure that every file requested are essential for your website or application.
  * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
  * 📖 [Combine external javascript](https://varvy.com/pagespeed/combine-external-javascript.html)
 
 
-- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
+- [ ] **Use a CDN to deliver your assets:** [![medium]](#none) Use a CDN to deliver faster your content over the world.
 
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve files from the same protocol:** ![high] Avoid having your website using HTTPS and serve files coming from source using HTTP.
+- [ ] **Serve files from the same protocol:** [![high]](#none) Avoid having your website using HTTPS and serve files coming from source using HTTP.
 
-- [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
+- [ ] **Serve reachable files:** [![high]](#none) Avoid requesting unreachable files (404).
  * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+- [ ] **Set HTTP cache headers properly:** [![high]](#none) Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
  * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high]
+- [ ] **GZIP / Brotli compression is enabled:** [![high]](#none)
 
  * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
