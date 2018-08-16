@@ -168,7 +168,7 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
-- [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid as much as you can iframes.
+- [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid iframes as much as you can.
 
 **[⬆ back to top](#table-of-contents)**
 
