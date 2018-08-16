@@ -92,6 +92,8 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
  * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
  * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
+ * 📖 [Front-End Performance Checklist 2018 [PDF, Apple Pages]](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/)
+ * 📖 [Designing for Performance Weighing Aesthetics and Speed - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
  * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
  * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
 ---
@@ -357,6 +359,7 @@ List of the tools you can use to test or monitor your website or application:
     ⁃ Use a tool and specify a level compression under 85.
 
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
+    * 📖 [Essential Image Optimization - An eBook by Addy Osmani](https://images.guide/)
     * 🛠 [TinyJPG – Compress JPEG images intelligently](https://tinyjpg.com/)
     * 🛠 [Kraken.io - Online Image Optimizer](https://kraken.io/web-interface)
     * 🛠 [Compressor.io - optimize and compress JPEG photos and PNG images](https://compressor.io/compress)
