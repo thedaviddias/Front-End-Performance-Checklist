@@ -84,6 +84,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [SpeedCurve: Monitor front-end performance](https://speedcurve.com)
  * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
  * 🛠 [Varvy - Page speed optimization]( https://varvy.com/pagespeed/)
+ * 🛠 [Lighthouse - Google]( https://developers.google.com/web/tools/lighthouse/#devtools)
 
 
 ### References
