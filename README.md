@@ -590,6 +590,9 @@ List of the tools you can use to test or monitor your website or application:
 ---
 ## Performances and JS Frameworks
 
+### Angular
+ * 📖 [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist)
+
 ### React
 
  * 📖 [Optimizing Performance - React](https://reactjs.org/docs/optimizing-performance.html)
