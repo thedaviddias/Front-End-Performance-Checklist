@@ -85,7 +85,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
  * 🛠 [Varvy - Page speed optimization]( https://varvy.com/pagespeed/)
  * 🛠 [Lighthouse - Google]( https://developers.google.com/web/tools/lighthouse/#devtools)
-
+ * 🛠 [Checkbot browser extension - Checks for web performance best practices](https://www.checkbot.io/)
 
 ### References
 
@@ -97,6 +97,8 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [Designing for Performance Weighing Aesthetics and Speed - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
  * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
  * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
+ * 📖 [Checkbot - Web Speed Best Practices](https://www.checkbot.io/guide/speed/)
+
 ---
 
 ## HTML
