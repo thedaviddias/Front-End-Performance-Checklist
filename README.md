@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170">
+  <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist"><img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170"></a>
   <br>
     <br>
   Front-End Performance Checklist
@@ -14,8 +14,8 @@
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
   </a>
-  <a href="https://spectrum.chat/front-end-checklist">
-    <img src="https://img.shields.io/badge/chat-on_spectrum-4837E2.svg?style=flat-square" alt="Spectrum">
+  <a href="https://discord.gg/btHQRkm">
+    <img src="https://img.shields.io/badge/chat-on_discord-4837E2.svg?style=flat-square" alt="Discord">
   </a>
     <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Licence MIT">
@@ -330,6 +330,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
     * 📖 [Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
     * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
+    * 🛠 [typekit/webfontloader: Web Font Loader gives you added control when using linked fonts via @font-face.](https://github.com/typekit/webfontloader)
 
 - [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
 
@@ -371,7 +372,7 @@ List of the tools you can use to test or monitor your website or application:
 * [ ] **Images format:** ![high] Choose your image format appropriately.
 
     *Why:*
-    > To ensure that your images don't slow your website, choose the format that will
+    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
 
     *How:*
     > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP) <br>
@@ -379,8 +380,8 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Serve Images in Next-Gen Formats  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
     * 📖 [What Is the Right Image Format for Your Website? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
-     * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
-     * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
+    * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
+    * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
 - [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
 
@@ -480,6 +481,7 @@ List of the tools you can use to test or monitor your website or application:
 
     *How:*
     > If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
+    > [Greenkeeper](https://greenkeeper.io/) can automatically look for your dependencies and suggest an update evey time a new version is out.
 
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
@@ -508,12 +510,31 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
     * 📖 [How to Record Heap Snapshots  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/memory-problems/heap-snapshots)
     * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
+    * 📖 [30 Tips To Improve Javascript Performance](http://www.monitis.com/blog/30-tips-to-improve-javascript-performance/)
+
+- [ ] **Use of Service Workers:** ![medium] You are using Service Workers in your PWA to cache datas or execute possible heavy tasks without impacting the user experience of your application.
+   
+    * 📖 [Service Workers: an Introduction  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/)
+    * 📖 [Measuring the Real-world Performance Impact of Service Workers  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2016/service-worker-perf)
+    * 📖 [What Are Service Workers and How They Help Improve Performance](https://www.keycdn.com/blog/service-workers/)
+    * 📖 [How does a service worker work? - YouTube](https://www.youtube.com/watch?v=__xAtWgfzvc)
 
 **[⬆ back to top](#table-of-contents)**
 
 ## Server
 
 ![server-side]
+
+- [ ] **Your website is using HTTPS:** ![high] 
+
+    *Why:*
+    > HTTPS is not only for ecommerce websites, but for all websites that is exchanging datas. Datas shared by a user or datas shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
+
+ * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
+ * 📖 [Enabling HTTPS Without Sacrificing Your Web Performance - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
+ * 📖 [How HTTPS Affects Website Performance](https://wp-rocket.me/blog/https-affects-website-performance/)
+ * 📖 [HTTP versus HTTPS versus HTTP2 - The real story | Tune The Web](https://www.tunetheweb.com/blog/http-versus-https-versus-http2/)
+ * 📖 [HTTP vs HTTPS — Test them both yourself](https://www.httpvshttps.com/)
 
 - [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
 
@@ -564,22 +585,20 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
  * 📖 [Combine external JavaScript](https://varvy.com/pagespeed/combine-external-javascript.html)
 
-
 - [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
 
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve files from the same protocol:** ![high] Avoid having your website using HTTPS and serve files coming from source using HTTP.
+- [ ] **Serve files from the same protocol:** ![high] Avoid having your website serving files coming from source using HTTP on your website which is using HTTPS for example. If your website is using HTTPS, external files should come from the same protocol.
 
 - [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
  * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
-
 - [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
  * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high]
+- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
 
  * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
@@ -605,6 +624,8 @@ List of the tools you can use to test or monitor your website or application:
 
 ### WordPress
 
+* 🛠 [Test Your Website Speed | WordPress Hosting by @WPEngine](https://wpengine.com/speed-tool/)
+
 #### Articles
 
  * 📖 [19 Tips to Speed Up WordPress Performance (Updated)](https://www.wpbeginner.com/wordpress-performance-speed/)
@@ -612,8 +633,9 @@ List of the tools you can use to test or monitor your website or application:
 
 #### Plugins recommended
 
-
-
+* 🛠 [Caching Plugin for WordPress - Speed up your website with WP Rocket](https://wp-rocket.me/)
+* 🛠 [WP-Sweep | WordPress.org](https://wordpress.org/plugins/wp-sweep/)
+* 🛠 [Imagify Image Optimizer | WordPress.org](https://wordpress.org/plugins/imagify/)
 
 ---
 
@@ -635,7 +657,7 @@ The Front-End Performance Checklist wants to also be available in other language
 
 If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
 
-* [Chat on Gitter](https://gitter.im/Front-End-Checklist/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+* [Chat on Discord](https://discord.gg/btHQRkm)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
