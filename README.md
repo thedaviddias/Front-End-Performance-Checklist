@@ -344,6 +344,14 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
+- [ ] **Inspect fonts in webpages:** ![medium] Visual check on desktop
+
+ *Why:*
+    > ⁃ With just mouse over, it is easy to check the font families and weights in use 
+
+ * 📖 [Fontface Ninja](https://fontface.ninja/)
+ * 📖 [WhatFont - Chrome extension] (https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm)  
+
 **[⬆ back to top](#table-of-contents)**
 
 ## Images
