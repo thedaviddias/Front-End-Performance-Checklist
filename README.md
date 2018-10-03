@@ -99,6 +99,7 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
  * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
  * 📖 [Checkbot - Web Speed Best Practices](https://www.checkbot.io/guide/speed/)
+ * 🛠 [Progressive Tooling - A list of community-built, third-party tools that can be used to improve page performance](https://progressivetooling.com/)
 
 ---
 
