@@ -660,7 +660,7 @@ The Front-End Performance Checklist wants to also be available in other language
 
 ## Support
 
-If you have any question or suggestion, don't hesitate to use Gitter or Twitter:
+If you have any question or suggestion, don't hesitate to use Discord or Twitter:
 
 * [Chat on Discord](https://discord.gg/btHQRkm)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
