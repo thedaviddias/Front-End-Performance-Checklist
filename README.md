@@ -293,6 +293,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 📖 [CSS Stats](https://cssstats.com/)
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
+    * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
 
 **[⬆ back to top](#table-of-contents)**
 
