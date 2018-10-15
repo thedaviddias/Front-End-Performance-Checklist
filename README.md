@@ -74,7 +74,6 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
  * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
- * 📖 [Pagespeed - The tool and optimization guide](https://varvy.com/pagespeed/)
  * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
  * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
  * 🛠 [Calibre](https://calibreapp.com/)
