@@ -572,13 +572,13 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
     * 🛠 [Global latency testing tool](https://latency.apex.sh)
 
-* [ ] **Cookie size:** ![medium] If you are using cookies be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **Cookie size:** ![medium] If you are using cookies, be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
 
     *Why:*
-    > cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+    > Cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
 
     *How:*
-    > Eliminate unnecessary cookies
+    > Eliminate unnecessary cookies.
 
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
