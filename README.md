@@ -291,7 +291,7 @@ List of the tools you can use to test or monitor your website or application:
     > Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analysing and correct your code.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
-    * 📖 [CSS Stats](https://cssstats.com/)
+    * 🛠 [CSS Stats](https://cssstats.com/)
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
     * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
 
@@ -522,7 +522,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Service Workers: an Introduction  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/)
     * 📖 [Measuring the Real-world Performance Impact of Service Workers  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2016/service-worker-perf)
     * 📖 [What Are Service Workers and How They Help Improve Performance](https://www.keycdn.com/blog/service-workers/)
-    * 📖 [How does a service worker work? - YouTube](https://www.youtube.com/watch?v=__xAtWgfzvc)
+    * 📹 [How does a service worker work? - YouTube](https://www.youtube.com/watch?v=__xAtWgfzvc)
 
 **[⬆ back to top](#table-of-contents)**
 
