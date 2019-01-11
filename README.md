@@ -72,7 +72,6 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
  * 🛠 [Treo: Page Speed Monitoring](https://treo.sh/?ref=perfchecklist)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
- * 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
  * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
  * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
@@ -87,7 +86,8 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Lighthouse - Google]( https://developers.google.com/web/tools/lighthouse/#devtools)
  * 🛠 [Checkbot browser extension - Checks for web performance best practices](https://www.checkbot.io/)
  * 🛠 [Yellow Lab Tools | Online test to help speeding up heavy web pages](https://yellowlab.tools/)
-
+ * 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
+ 
 ### References
 
  * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
