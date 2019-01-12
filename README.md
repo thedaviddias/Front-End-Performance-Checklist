@@ -87,6 +87,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Checkbot browser extension - Checks for web performance best practices](https://www.checkbot.io/)
  * 🛠 [Yellow Lab Tools | Online test to help speeding up heavy web pages](https://yellowlab.tools/)
  * 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
+ * 🛠 [DebugBear - Monitor website performance and Lighthouse scores](https://www.debugbear.com/)
  
 ### References
 
