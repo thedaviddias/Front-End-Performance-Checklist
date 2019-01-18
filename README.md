@@ -73,6 +73,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Treo: Page Speed Monitoring](https://treo.sh/?ref=perfchecklist)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+ * 🛠 [Web.dev](https://web.dev/measure)
  * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
  * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
  * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
