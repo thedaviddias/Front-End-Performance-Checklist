@@ -178,6 +178,18 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid iframes as much as you can.
 
+- [ ] **Pre-load optimization with prefetch, dns-prefetch and prerender:** ![low] Popular browsers can use directive on `<link>` tag and "rel" attribute with certain keywords to pre-load specific URLs.
+
+    *Why:*
+    > Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access in the near future. The browser is able to store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user go in a particular link (already prefetched), the content will be instantly served. 
+
+    *How:*
+    > ⁃ Ensure that `<link>` is in your `<head>` section.
+
+    * 📖 [What Is Prefetching and Why Use It](https://www.keycdn.com/support/prefetching)
+    * 📖 [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
+    * 📖 [What is Preload, Prefetch, and Preconnect](https://www.keycdn.com/blog/resource-hints)
+
 **[⬆ back to top](#table-of-contents)**
 
 ## CSS
