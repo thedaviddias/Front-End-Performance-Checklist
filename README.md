@@ -89,6 +89,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Yellow Lab Tools | Online test to help speeding up heavy web pages](https://yellowlab.tools/)
  * 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
  * 🛠 [DebugBear - Monitor website performance and Lighthouse scores](https://www.debugbear.com/)
+ * 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
  
 ### References
 
