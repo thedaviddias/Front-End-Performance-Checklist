@@ -68,7 +68,6 @@ All items in the **Front-End Performance Checklist** are essentials to achieve t
 
 List of the tools you can use to test or monitor your website or application:
 
- * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
  * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
  * 🛠 [Treo: Page Speed Monitoring](https://treo.sh/?ref=perfchecklist)
@@ -91,6 +90,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
  * 🛠 [DebugBear - Monitor website performance and Lighthouse scores](https://www.debugbear.com/)
  * 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
+ * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
  
 ### References
 
