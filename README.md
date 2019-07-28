@@ -90,6 +90,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
  * 🛠 [DebugBear - Monitor website performance and Lighthouse scores](https://www.debugbear.com/)
  * 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
+ * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
  
 ### References
 
