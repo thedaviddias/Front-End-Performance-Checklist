@@ -56,9 +56,9 @@ Performance is a huge subject, but it's not always a "back-end" or an "admin" su
 
 ### How to use?
 
-For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 media that can complete the checklist.
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority:
+All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritized some rules amount others. There are 3 levels of priority:
 
 * ![Low][low] means that the item has a **low** priority.
 * ![Medium][medium] means that the item has a **medium** priority. You shouldn't avoid tackling that item.
@@ -171,7 +171,7 @@ List of the tools you can use to test or monitor your website or application:
     ```
 
     *Why:*
-    > Having your CSS tags before any JavaScript enables better, parallel download which speed up browser rendering time.
+    > Having your CSS tags before any JavaScript enables better, parallel download which speeds up browser rendering time.
 
     *How:*
     > ⁃ Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
@@ -201,7 +201,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
 
     *Why:*
-    > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
+    > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business that wants to lower bandwidth costs and lower resource usage.
 
     *How:*
     > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
@@ -227,10 +227,10 @@ List of the tools you can use to test or monitor your website or application:
     > If you are still using HTTP/1, you may need to still concatenate your files, it's less true if your server use HTTP/2 (tests should be made).
 
     *How:*
-    > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files. <br>
+    > ⁃ Use an online tool or any plugin before or during your build or your deployment to concatenate your files. <br>
     ⁃ Ensure, of course, that concatenation does not break your project.
 
-    * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
+    * 📖 [HTTP: Optimizing Application Delivery - High-Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
     * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
 - [ ] **Non-blocking:** ![high] CSS files need to be non-blocking to prevent the DOM from taking time to load.
@@ -254,7 +254,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Length of CSS classes:** ![low] The length of your classes can have an (slight) impact on your HTML and CSS files (eventually).
 
     *Why:*
-    > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. If you are using BEM, in some cases, you can end up with classes having more characters than needed. It's always important to choose wisely your names and namespaces.
+    > Even performance impacts can be disputable, making a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. If you are using BEM, in some cases, you can end up with classes having more characters than needed. It's always important to choose wisely your names and namespaces.
 
     *How:*
     > Setting a limit in terms of number of characters could be interesting for some people, but ensuring that you broke down your website in components can help to reduce the amount of classes (and declarations) and the length of your classes.
@@ -267,7 +267,7 @@ List of the tools you can use to test or monitor your website or application:
     > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
 
     *How:*
-    > ⁃ ⚠️ Always check if the framework CSS you want to use don't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
+    > ⁃ ⚠️ Always check if the framework CSS you want to use doesn't already have a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
 
     * 🛠 [UnCSS Online](https://uncss-online.com/)
     * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
@@ -299,13 +299,13 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
-- [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
+- [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies, and duplicate CSS selectors.
 
     *Why:*
-    > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
+    > Sometimes you may have redundancies or validation errors in your CSS, analyzing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
 
     *How:*
-    > Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analysing and correct your code.
+    > Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analyzing and correct your code.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 🛠 [CSS Stats](https://cssstats.com/)
@@ -323,7 +323,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
 
     *Why:*
-    > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
+    > According to Google, the WOFF 2.0 Web Font compression format offers a 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
 
     *How:*
     > Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
@@ -341,12 +341,12 @@ List of the tools you can use to test or monitor your website or application:
     ```
 
     *Why:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to lookup the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
+    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and pre connects allow the browser to look up the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because, by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
 
     *How:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
+    > ⁃ Before prefetching your web fonts, use web page test to evaluate your website <br>
+    ⁃ Look for teal colored DNS lookups and note the host that is being requested <br>
+    ⁃ Prefetch your web fonts in your `<head>` and add eventually these hostnames that you should prefetch too
 
     * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
     * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
@@ -414,7 +414,7 @@ List of the tools you can use to test or monitor your website or application:
 * [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
 
     *Why:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+    > If height and width are set, the space required for the image is preserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
 
 * [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
 
@@ -431,7 +431,7 @@ List of the tools you can use to test or monitor your website or application:
     *How:*
     > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
     ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only. <br>
-    ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
+    ⁃ Also make sure to lazy load alternative images shown at mouseover or upon other user actions.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
@@ -441,7 +441,7 @@ List of the tools you can use to test or monitor your website or application:
 * [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
 
     *Why:*
-    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
+    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image of different sizes.
 
     *How:*
     > ⁃ Create different image sizes for the devices you want to target. <br>
@@ -470,7 +470,7 @@ List of the tools you can use to test or monitor your website or application:
 * [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
 
     *Why:*
-    > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
+    > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or a small script that needs to load before the DOM gets to main processing.
 
     *How:*
     > Ensure that all your files are loaded using `async` or `defer` and decide wisely the code that you will need to inject in your `<head>`.
@@ -488,10 +488,10 @@ List of the tools you can use to test or monitor your website or application:
     ```
 
     *Why:*
-    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
+    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed at the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
 
     *How:*
-    > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag. <br>
+    > ⁃ Add `async` (if the script doesn't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag. <br>
     ⁃ If you have small scripts, maybe use inline script place above async scripts.
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
@@ -500,7 +500,7 @@ List of the tools you can use to test or monitor your website or application:
 * [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
     *Why:*
-    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
+    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without an outdated plugin.
 
     *How:*
     > If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
@@ -509,7 +509,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
+- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for the same functionality.
 
     *Why:*
     > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
@@ -552,7 +552,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Your website is using HTTPS:** ![high] 
 
     *Why:*
-    > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
+    > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared with an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
 
  * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
  * 📖 [Enabling HTTPS Without Sacrificing Your Web Performance - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
@@ -575,7 +575,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
 
     *Why:*
-    > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
+    > Faster your website or app is, less you have the probability of bounce increases, in other terms you have fewer chances to lose your user or future client. Enough researches on the subject prove that point.
 
     *How:*
     > Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
@@ -619,10 +619,10 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
  * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid an expensive number of roundtrips between your browser and the server.
  * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
+- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller size file, users will be able to download the asset faster, resulting in improved performance.
 
  * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
