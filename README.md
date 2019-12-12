@@ -690,7 +690,7 @@ If you have any question or suggestion, don't hesitate to use Discord or Twitter
 
 ## Author
 
-**Build with ❤️ by [David Dias](https://github.com/thedaviddias) at [@influitive](https://influitive.com/) 🇨🇦**
+**Build with ❤️ by [David Dias](https://github.com/thedaviddias)
 
 ## Contributors
 
