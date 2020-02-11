@@ -251,16 +251,6 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
     * 📖 [Preload: What Is It Good For? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
 
-- [ ] **Length of CSS classes:** ![low] The length of your classes can have an (slight) impact on your HTML and CSS files (eventually).
-
-    *Why:*
-    > Even performance impacts can be disputable, taking a decision on a naming strategy regarding your project can have a substantial impact on the maintainability of your stylesheets. If you are using BEM, in some cases, you can end up with classes having more characters than needed. It's always important to choose wisely your names and namespaces.
-
-    *How:*
-    > Setting a limit in terms of number of characters could be interesting for some people, but ensuring that you broke down your website in components can help to reduce the amount of classes (and declarations) and the length of your classes.
-
-    * 🛠 [long vs short class · jsPerf](https://jsperf.com/long-vs-short-class)
-
 - [ ] **Unused CSS:** ![medium] Remove unused CSS selectors.
 
     *Why:*
