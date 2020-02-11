@@ -115,7 +115,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
 
     *Why:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
+    > Removing all unnecessary spaces, comments and attributes will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
 
     *How:*
     > Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
@@ -123,38 +123,6 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
     * 🛠 [Online HTML Compressor](http://refresh-sf.com)
     * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
-
-- [ ] **Remove unnecessary comments:** ![low] Ensure that comments are removed from your pages.
-
-    *Why:*
-    > Comments are not really useful for the user and should be removed from production files. One case where you want to keep comments could be if you need to keep the origin for a library.
-
-    *How:*
-    > ⁃ Most of the time, comments can be removed using an HTML minify plugin.
-
- * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
-
-- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` are not required anymore and should be removed.
-
-    ```html
-    <!-- Before HTML5 -->
-    <script type="text/javascript">
-        // JavaScript code
-    </script>
-
-    <!-- Today -->
-    <script>
-        // JavaScript code
-    </script>
-    ```
-
-    *Why:*
-    > Type attributes are not necessary as HTML5 implies text/css and text/javascript as defaults. Unused code should be removed when not used by your website or app as they add more weight to your pages.
-
-    *How:*
-    > ⁃ Ensure that all your `<link>` and `<script>` tags don't have any type attribute.
-
-    * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
 - [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
 
