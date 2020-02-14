@@ -7,8 +7,8 @@
   <br>
 </h1>
 
-<h4 align="center">🎮 The only Front-End Performance Checklist that runs faster than the others.</h4>
-<p align="center">One simple rule: "Design and code with performance in mind"</p>
+<h4 align="center">🎮 何よりも早く動作するための唯一のフロントエンドパフォーマンスチェックリストです。</h4>
+<p align="center">シンプルなルール： "パフォーマンスを考慮してデザイン・コーディングすること"</p>
 
 <p align="center">
   <a href="http://makeapullrequest.com">
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="http://feedback.frontendchecklist.io/">Roadmap</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
+  <a href="#使い方">使い方</a> • <a href="#contributing">Contributing</a> • <a href="http://feedback.frontendchecklist.io/">ロードマップ</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
 
 <p align="center">
@@ -47,26 +47,26 @@
 3. **[Fonts](#fonts)**
 4. **[Images](#images)**
 5. **[JavaScript](#javascript)**
-6. **[Server](#server) (in progress)**
-7. **[JS Frameworks](#performances-and-js-frameworks) (in progress)**
+6. **[Server](#server) (作成中)**
+7. **[JS Frameworks](#performances-and-js-frameworks) (作成中)**
 
-## Introduction
+## はじめに
 
-Performance is a huge subject, but it's not always a "back-end" or an "admin" subject: it's a Front-End responsibility too. The Front-End Performance Checklist is an exhaustive list of elements you should check or at least be aware of, as a Front-End developer and apply to your project (personal and professional).
+パフォーマンスは大きなテーマですが、いつも「バックエンド」や「管理者」の問題というわけではありません。フロントエンドの責任範囲でもあります。このフロントエンドパフォーマンスチェックリストは、フロントエンド開発者としてプロジェクト（個人 or 業務）に充たる場合に、確認もしくは気にしておくべき項目を網羅的にリストアップしたものです。
 
-### How to use?
+### 使い方
 
-For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+各ルールには、このルールが重要である *理由* と 修正する *方法* を記載しています。より詳細な情報は、 🛠: ツール, 📖: 記事, 📹: 動画サイト のリンクを参照してください。
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority:
+**フロントエンドパフォーマンスチェックリスト** は、どれも最高のパフォーマンススコアを達成するためには不可欠な項目ですが、どのルールを優先的に適用すべきかを３段階で示しています。
 
-* ![Low][low] means that the item has a **low** priority.
-* ![Medium][medium] means that the item has a **medium** priority. You shouldn't avoid tackling that item.
-* ![High][high] means that the item has a **high** priority. You can't avoid following that rule and implement the corrections recommended.
+* ![Low][low] は、優先順位が **低い** ことを意味しています。
+* ![Medium][medium] は、優先順位が **中程度** であることを意味しています。 このルールの適用を避けるべきではありません。
+* ![High][high] は、優先順位が **高い** ことを意味しています。 このルールに従い、推奨される方法で実装してください。
 
-### Performance tools
+### パフォーマンスツール
 
-List of the tools you can use to test or monitor your website or application:
+Webサイト または アプリケーションのテストやモニタリングに使用できるツールのリスト:
 
  * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
  * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
@@ -92,7 +92,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
  * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
  
-### References
+### 参考文献
 
  * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
  * [AddyOsmani.com - Start Performance Budgeting](https://addyosmani.com/blog/performance-budgets/)
@@ -112,29 +112,29 @@ List of the tools you can use to test or monitor your website or application:
 
 ![html]
 
-- [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
+- [ ] **HTML の軽量化(Minified):** ![medium] HTML コードは圧縮され、コメント、空白、改行が本番のファイルから削除されていること。
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
+    *理由 :*
+    > 不要なスペース、コメント、ブレークを全て削除すると、HTML のサイズが小さくなり、サイトのページの読み込み時間が短縮され、ユーザのダウンロードにかかる時間が明らかに軽減されます。
 
-    *How:*
-    > Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
+    *方法 :*
+    > ほとんどのフレームワークには、Webページを容易に圧縮することができるプラグインがあります。自動的にジョブを実行できる多くのNPMモジュールを使用できます。
 
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
     * 🛠 [Online HTML Compressor](http://refresh-sf.com)
     * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
 
-- [ ] **Remove unnecessary comments:** ![low] Ensure that comments are removed from your pages.
+- [ ] **不要なコメントの削除:** ![low] コメントがページから削除されていることを確認してください。
 
-    *Why:*
-    > Comments are not really useful for the user and should be removed from production files. One case where you want to keep comments could be if you need to keep the origin for a library.
+    *理由 :*
+    > コメントはユーザにとって何も役に立たないので、本番のファイルからは削除すべきです。コメントを保持したくなるケースは、ライブラリのソースを保持する必要がある場合くらいです。（keep the origin for a library）
 
-    *How:*
-    > ⁃ Most of the time, comments can be removed using an HTML minify plugin.
+    *方法 :*
+    > ほとんどの場合、コメントはHTML圧縮プラグインを使って削除することができます。
 
  * 🛠 [remove-html-comments - npm](https://www.npmjs.com/package/remove-html-comments)
 
-- [ ] **Remove unnecessary attributes:** ![low] Type attributes like `type="text/javascript"` or `type="text/css"` are not required anymore and should be removed.
+- [ ] **不要な属性の削除:** ![low] `type="text/javascript"` や `type="text/css"` のようなタイプ属性は、もはや必要ではないため削除すべきです。
 
     ```html
     <!-- Before HTML5 -->
@@ -148,15 +148,15 @@ List of the tools you can use to test or monitor your website or application:
     </script>
     ```
 
-    *Why:*
-    > Type attributes are not necessary as HTML5 implies text/css and text/javascript as defaults. Unused code should be removed when not used by your website or app as they add more weight to your pages.
+    *理由 :*
+    > HTML5ではデフォルトで text/css と text/javascript が含まれているため、タイプ属性は必要ありません。未使用のコードはページを重くするため、Webサイトやアプリで使用されないコードは削除すべきです。
 
-    *How:*
-    > ⁃ Ensure that all your `<link>` and `<script>` tags don't have any type attribute.
+    *方法 :*
+    > すべての `<link>` および `<script>` タグにtype属性がないことを確認してください。
 
     * 📖 [The Script Tag | CSS-Tricks](https://css-tricks.com/the-script-tag/)
    
-- [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
+- [ ] **CSSタグは必ずJavaScriptタグの前に配置:** ![high] 必ずCSSがJavaScriptコードの前にロードされることを確認してください。
 
     ```html
     <!-- Not recommended -->
@@ -170,29 +170,29 @@ List of the tools you can use to test or monitor your website or application:
     <script src="foo.js"></script>
     ```
 
-    *Why:*
-    > Having your CSS tags before any JavaScript enables better, parallel download which speed up browser rendering time.
+    *理由 :*
+    > JavaScriptの前にCSSタグを置くと、より効率的な並列ダウンロードが可能となり、ブラウザのレンダリング時間が短縮されます。
 
-    *How:*
-    > ⁃ Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
+    *方法 :*
+    > `<head>` 内の `<link>` と `<style>` が、常に `<script>` の前にあることを確認してください。
 
     * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
-- [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid iframes as much as you can.
+- [ ] **iframe の数を最小限に抑える:** ![high] iframeは他の技術的な可能性がない場合にのみ使用してください。できる限り iframe の使用を避けましょう。
 
-- [ ] **Pre-load optimization with prefetch, dns-prefetch and prerender:** ![low] Popular browsers can use directive on `<link>` tag and "rel" attribute with certain keywords to pre-load specific URLs.
+- [ ] **prefetch、dns-prefetch、prerendeでの事前読み込みによる最適化:** ![low] 一般的なブラウザでは、`<link>`タグに "rel"属性のディレクティブ指定することで特定のURLを事前読み込みすることができます。
 
-    *Why:*
-    > Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access in the near future. The browser is able to store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user go in a particular link (already prefetched), the content will be instantly served. 
+    *理由 :*
+    > 事前読込み(Prefetching)により、ブラウザはユーザが近い将来アクセスする可能性のあるコンテンツの表示に必要なリソースを事前に取得しておくことができます。ブラウザはこれらのリソースをキャッシュに保存するので、コンテンツが異なるドメインを使っている場合でもWebページの読み込みを高速化できます。Webページの読み込みが完了し、アイドル時間が経過すると、ブラウザは他のリソースのダウンロードを開始します。ユーザが特定のリンク（事前読み込み済み）にアクセスすると、コンテンツは即時に提供されます。
 
-    *How:*
-    > ⁃ Ensure that `<link>` is in your `<head>` section.
+    *方法 :*
+    > ⁃ `<link>` タグが`<head>` タグ内に あることを確認してください。
 
     * 📖 [What Is Prefetching and Why Use It](https://www.keycdn.com/support/prefetching)
     * 📖 [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
     * 📖 [What is Preload, Prefetch, and Preconnect](https://www.keycdn.com/blog/resource-hints)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ トップに戻る](#table-of-contents)**
 
 ## CSS
 
