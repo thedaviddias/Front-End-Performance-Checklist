@@ -29,7 +29,7 @@
 <p align="center">
   <a href="https://github.com/JohnsenZhou/Front-End-Performance-Checklist">🇨🇳</a>
   <a href="https://github.com/WilliamDASILVA/Front-End-Performance-Checklist">🇫🇷</a>
-  <a href="https://github.com/ParkSB/Front-End-Performance-Checklist">🇰🇷</a>  
+  <a href="https://github.com/ParkSB/Front-End-Performance-Checklist">🇰🇷</a>
   <a href="https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
   <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
 </p>
@@ -91,7 +91,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [DebugBear - Monitor website performance and Lighthouse scores](https://www.debugbear.com/)
  * 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
  * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
- 
+
 ### References
 
  * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
@@ -151,7 +151,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Pre-load optimization with prefetch, dns-prefetch and prerender:** ![low] Popular browsers can use directive on `<link>` tag and "rel" attribute with certain keywords to pre-load specific URLs.
 
     *Why:*
-    > Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access in the near future. The browser is able to store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user go in a particular link (already prefetched), the content will be instantly served. 
+    > Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access in the near future. The browser is able to store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user go in a particular link (already prefetched), the content will be instantly served.
 
     *How:*
     > ⁃ Ensure that `<link>` is in your `<head>` section.
@@ -507,7 +507,7 @@ List of the tools you can use to test or monitor your website or application:
 
 ![server-side]
 
-- [ ] **Your website is using HTTPS:** ![high] 
+- [ ] **Your website is using HTTPS:** ![high]
 
     *Why:*
     > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
@@ -697,6 +697,6 @@ All icons are provided by [Icons8](https://icons8.com/)
 [javascript]: images/javascript.png
 [server-side]: images/server-side.png
 
-[low]: https://front-end-checklist.now.sh/low.svg
-[medium]: https://front-end-checklist.now.sh/medium.svg
-[high]: https://front-end-checklist.now.sh/high.svg
+[low]: images/priority/low.svg
+[medium]: images/priority/medium.svg
+[high]: images/priority/high.svg
