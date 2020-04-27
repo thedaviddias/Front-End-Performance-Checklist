@@ -7,8 +7,8 @@
   <br>
 </h1>
 
-<h4 align="center">🎮 The only Front-End Performance Checklist that runs faster than the others.</h4>
-<p align="center">One simple rule: "Design and code with performance in mind"</p>
+<h4 align="center">🎮 Jedyna checklista wydajności Frontend, która działa szybciej, niż inne.</h4>
+<p align="center">Jedna prosta zasada: "Projektuj i koduj z wydajnością na uwadze"</p>
 
 <p align="center">
   <a href="http://makeapullrequest.com">
@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="http://feedback.frontendchecklist.io/">Roadmap</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
+  <a href="#how-to-use">Jak korzystać</a> • <a href="#contributing">Współtworzenie</a> • <a href="http://feedback.frontendchecklist.io/">Plan</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
 
 <p align="center">
@@ -32,44 +32,45 @@
   <a href="https://github.com/ParkSB/Front-End-Performance-Checklist">🇰🇷</a>
   <a href="https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
   <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
+  <a href="https://github.com/mbiesiad/Front-End-Performance-Checklist">🇵🇱</a>
 </p>
 
 <p align="center">
-    <span>Other Checklists:</span>
+    <span>Inne checklisty:</span>
     <br>
   🗂 <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Front-End Checklist</a> • 💎 <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Front-End Design Checklist</a>
 </p>
 
-## Table of Contents
+## Spis treści
 
 1. **[HTML](#html)**
 2. **[CSS](#css)**
 3. **[Fonts](#fonts)**
 4. **[Images](#images)**
 5. **[JavaScript](#javascript)**
-6. **[Server](#server) (in progress)**
-7. **[JS Frameworks](#performances-and-js-frameworks) (in progress)**
+6. **[Server](#server) (w trakcie)**
+7. **[JS Frameworks](#performances-and-js-frameworks) (w trakcie)**
 
-## Introduction
+## Wprowadzenie
 
-Performance is a huge subject, but it's not always a "back-end" or an "admin" subject: it's a Front-End responsibility too. The Front-End Performance Checklist is an exhaustive list of elements you should check or at least be aware of, as a Front-End developer and apply to your project (personal and professional).
+Wydajność jest sporym tematem, ale nie zawsze jest to tylko temat "backendu" lub "admina": to także odpowiedzialność frontendu. Lista kontrolna wydajności frontendu to wyczerpująca lista elementów, które powinieneś sprawdzić, a przynajmniej być jej świadomym, jako programista frontend i stosować to w swoim projekcie (osobistym i zawodowym).
 
-### How to use?
+### Jak korzystać?
 
-For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+Dla każdej zasady będzie akapit wyjaśniający *dlaczego* ta zasada jest ważna i *jak* możesz to naprawić. Aby uzyskać więcej szczegółowych informacji, należy znaleźć linki, które będą wskazywać 🛠 narzędzia, 📖 artykuły lub 📹 media które mogą wypełnić listę kontrolną.
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority:
+Wszystkie elementy w **Checklista wyjdajności Frontend** są niezbędne, aby osiągnąć najwyższy wynik wydajności, ale można znaleźć też wskaźnik, który pomoże w ustaleniu priorytetów niektórych zasad w stosunku do innych. Istnieją 3 poziomy priorytetu:
 
-* ![Low][low] means that the item has a **low** priority.
-* ![Medium][medium] means that the item has a **medium** priority. You shouldn't avoid tackling that item.
-* ![High][high] means that the item has a **high** priority. You can't avoid following that rule and implement the corrections recommended.
+* ![Low][low] oznacza, że element ma **niski** priorytet.
+* ![Medium][medium] oznacza, że element ma **średni** priorytet. Nie powinieneś unikać zajmowania się tą kwestią.
+* ![High][high] oznacza, że element ma **wysoki** priorytet. Nie można uniknąć przestrzegania tej zasady i wprowadzenia zalecanych poprawek.
 
-### Performance tools
+### Narzędzia wydajności
 
-List of the tools you can use to test or monitor your website or application:
+Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej witryny lub aplikacji:
 
  * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
- * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
+ * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (użyj kuponu WPCDD20 dla -20%)
  * 🛠 [Treo: Page Speed Monitoring](https://treo.sh/?ref=perfchecklist)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
@@ -79,7 +80,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
  * 🛠 [Calibre](https://calibreapp.com/)
  * 🛠 [Website Speed Test | Check Web Performance &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
- * 🛠 [Website and Server Uptime Monitoring - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Free Signup Link](https://www.pingdom.com/free))
+ * 🛠 [Website and Server Uptime Monitoring - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Link do darmowej rejestracji](https://www.pingdom.com/free))
  * 🛠 [Uptime Robot](https://uptimerobot.com)
  * 🛠 [SpeedCurve: Monitor front-end performance](https://speedcurve.com)
  * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
@@ -92,9 +93,9 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
  * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
 
-### References
+### Odnośniki
 
- * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
+ * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([wersja tekstowa](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
  * [AddyOsmani.com - Start Performance Budgeting](https://addyosmani.com/blog/performance-budgets/)
  * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
  * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
@@ -112,12 +113,12 @@ List of the tools you can use to test or monitor your website or application:
 
 ![html]
 
-- [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Zminifikowany HTML:** ![medium] Kod HTML jest minifikowany, komentarze, białe znaki i nowe wiersze są usuwane z plików produkcyjnych.
 
-    *Why:*
+    *Czemu:*
     > Removing all unnecessary spaces, comments and attributes will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
 
-    *How:*
+    *Jak:*
     > Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
 
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
