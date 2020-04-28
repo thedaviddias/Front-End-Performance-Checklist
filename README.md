@@ -701,3 +701,7 @@ Wszystkie ikony są dostarczane przez [Icons8](https://icons8.com/)
 [low]: images/priority/low.svg
 [medium]: images/priority/medium.svg
 [high]: images/priority/high.svg
+
+___________________________________________________
+
+Stworzone przez: @[thedaviddias](https://github.com/thedaviddias) polska wersja od @[mbiesiad](https://github.com/mbiesiad/)
