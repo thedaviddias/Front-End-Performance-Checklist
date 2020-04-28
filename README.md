@@ -634,6 +634,7 @@ Checklista wydajności frontend chce być dostępna również w innych językach
 * 🇰🇷 koreański: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
 * 🇪🇸 hiszpański: [dagerzuga/Front-End-Performance-Checklist](https://github.com/dagerzuga/Front-End-Performance-Checklist)
 * 🇻🇮 wietnamski: [huynhan147/Front-End-Performance-Checklist](https://github.com/huynhan147/FrontEnd-Performance-Checklist)
+* 🇵🇱 polski: [mbiesiad/Front-End-Performance-Checklist](https://github.com/mbiesiad/Front-End-Performance-Checklist)
 
 ## Współtworzenie
 
