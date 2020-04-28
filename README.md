@@ -45,11 +45,11 @@
 
 1. **[HTML](#html)**
 2. **[CSS](#css)**
-3. **[Fonts](#fonts)**
-4. **[Images](#images)**
+3. **[Czcionki](#czcionki)**
+4. **[Obrazy](#obrazy)**
 5. **[JavaScript](#javascript)**
-6. **[Server](#server) (w trakcie)**
-7. **[JS Frameworks](#wydajności-i-frameworki-js) (w trakcie)**
+6. **[Serwer](#serwer) (w trakcie)**
+7. **[Frameworki JS](#wydajności-i-frameworki-js) (w trakcie)**
 
 ## Wprowadzenie
 
@@ -245,8 +245,7 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
     * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
     * 📖 [Inlining critical CSS for better web performance | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
      * 🛠 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
-     * 📖 [Reduce the size of the above-the-fold content
-](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
+     * 📖 [Reduce the size of the above-the-fold content](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
 
 - [ ] **Osadzony lub wbudowany CSS:** ![high] Unikaj używania wbudowanego lub osadzonego CSS wewnątrz swojego `<body>` *(Nie dotyczy HTTP/2)*
 
@@ -269,23 +268,23 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 🛠 [CSS Stats](https://cssstats.com/)
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
-    * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
+    * 🛠 [Project Wallace](https://www.projectwallace.com/) jest jak CSS Stats ale przechowuje statystyki, abyś mógł śledzić zmiany
 
 **[⬆ powrót do góry](#spis-treści)**
 
-## Fonts
+## Czcionki
 
 ![fonts]
 
 * 📖 [A Book Apart, Webfont Handbook](https://abookapart.com/products/webfont-handbook)
 
-- [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
+- [ ] **Webfont formats:** ![medium] Używasz WOFF2 w swoim projekcie lub aplikacji webowej.
 
     *Czemu:*
-    > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
+    > Według Google, WOFF 2.0 Web Font format kompresji oferuje 30% średni zysk w porównaniu z WOFF 1.0. W takim przypadku dobrze jest użyć WOFF 2.0, WOFF 1.0 jako rezerwowego i TTF.
 
     *Jak:*
-    > Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
+    > Przed zakupem nowej czcionki sprawdź, czy dostawca podaje ci format WOFF2. Jeśli używasz darmowej czcionki, zawsze możesz użyć Font Squirrel, aby wygenerować wszystkie potrzebne formaty.
 
     * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
     * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
@@ -293,19 +292,19 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
     * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
     * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
 
-- [ ] **Use `preconnect` to load your fonts faster:** ![medium]
+- [ ] **Używaj `preconnect` aby ładować twoje czcionki szybciej:** ![medium]
 
     ```html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     ```
 
     *Czemu:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to lookup the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
+    > Po wejściu na stronę internetową urządzenie musi dowiedzieć się, gdzie znajduje się twoja witryna i z którym serwerem musi się połączyć. Twoja przeglądarka musiała skontaktować się z serwerem DNS i poczekać na zakończenie wyszukiwania przed pobraniem zasobu (czcionek, plików CSS...). Prefiksy i połączenia wstępne pozwalają przeglądarce wyszukać informacje DNS i rozpocząć nawiązywanie połączenia TCP z serwerem obsługującym plik czcionek. Zapewnia to wzrost wydajności, ponieważ zanim przeglądarka zacznie analizować plik css z informacjami o czcionce i odkryje, że musi zażądać pliku czcionki z serwera, będzie już wstępnie rozpoznawać informacje DNS i mieć otwarte połączenie do serwera gotowego w puli połączeń.
 
     *Jak:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
+    > ⁃ Przed prefetchingiem twoich webfonts, użyj webpagetest, aby ocenić swoją stronę<br>
+    ⁃ Poszukaj zapytań DNS w kolorze morskim i zwróć uwagę na żądany host <br>
+    ⁃ Pobierz wstępnie twoje webfonts w `<head>` i ostatecznie dodaj te nazwy hostów, które powinieneś również pobrać
 
     * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
     * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
@@ -313,33 +312,33 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
     * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
     * 🛠 [typekit/webfontloader: Web Font Loader gives you added control when using linked fonts via @font-face.](https://github.com/typekit/webfontloader)
 
-- [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
+- [ ] **Rozmiar webfont:** ![medium] Rozmiary webfont nie przekraczają 300kb (zawarte wszystkie warianty)
 
  * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
 
-- [ ] **Prevent Flash or Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
+- [ ] **Zapobiegaj Flashowi lub niewidocznemu tekstowi:** ![medium] Unikaj przezroczystego tekstu, dopóki Webfont jest ładowany
 
  * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
 **[⬆ powrót do góry](#spis-treści)**
 
-## Images
+## Obrazy
 
 ![images]
 
  * 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
 
-* [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
+* [ ] **Optymalizacja obrazów:** ![high] Twoje obrazy są zoptymalizowane, skompresowane bez bezpośredniego wpływu na użytkownika końcowego.
 
-    *Why:*
-    > Optimized images load faster in your browser and consume less data.
+    *Czemu:*
+    > Zoptymalizowane obrazy ładują się szybciej w przeglądarce i zużywają mniej danych.
 
     *Jak:*
-    > ⁃ Try using CSS3 effects when it's possible (instead of a small image) <br>
-    ⁃ When it's possible, use fonts instead of text encoded in your images <br>
-    ⁃ Use SVG <br>
-    ⁃ Use a tool and specify a level compression under 85.
+    > ⁃ Spróbuj użyć efektów CSS3, gdy jest to możliwe (zamiast małego obrazu) <br>
+    ⁃ Jeśli to możliwe, używaj czcionek zamiast tekstu zakodowanego na obrazach <br>
+    ⁃ Użyj SVG <br>
+    ⁃ Użyj narzędzia i określ poziom kompresji poniżej 85.
 
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
     * 📖 [Essential Image Optimization - An eBook by Addy Osmani](https://images.guide/)
@@ -351,60 +350,60 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
     * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
 
 
-* [ ] **Images format:** ![high] Choose your image format appropriately.
+* [ ] **Format obrazów:** ![high] Wybierz odpowiedni format obrazu.
 
     *Czemu:*
-    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
+    > Aby mieć pewność, że twoje obrazy nie spowalniają twojej witryny, wybierz format, który będzie odpowiadał twojemu obrazowi. Jeśli jest to zdjęcie, JPEG jest w większości przypadków bardziej odpowiedni, niż PNG lub GIF. Ale nie zapomnij spojrzeć na formaty nex-gen, które mogą zmniejszyć rozmiar twoich plików. Każdy format obrazu ma zalety i wady, ważne jest, aby je znać, aby umożliwić jak najlepszy wybór.
 
     *Jak:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP) <br>
-    ⁃ Compare different formats, sometimes using PNG8 is better than PNG16, sometimes it's not.
+    > ⁃ Użyj [Lighthouse](https://developers.google.com/web/tools/lighthouse/) w celu ustalenia, które obrazy mogą ostatecznie wykorzystać **formaty następnej generacji** (np. JPEG 2000m JPEG XR lub WebP) <br>
+    ⁃ Porównaj różne formaty, czasem użycie PNG8 jest lepsze niż PNG16, a czasem nie.
 
     * 📖 [Serve Images in Next-Gen Formats  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
     * 📖 [What Is the Right Image Format for Your Website? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
     * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
     * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-- [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
+- [ ] **Użyj obrazu wektorowego vs rastra/bitmapy:** ![medium] Preferuj używanie obrazu wektorowego zamiast obrazów bitmapowych (jeśli to możliwe).
 
     *Czemu:*
-    > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
+    > Obrazy wektorowe (SVG) są zwykle mniejsze niż obrazy, a pliki SVG są responsywne i idealnie skalowane. Te obrazy mogą być animowane i modyfikowane przez CSS.
 
-* [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
+* [ ] **Wymiary obrazów:** ![medium] Ustaw atrybuty `width` i `height` na `<img>` jeśli znany jest ostateczny rozmiar renderowanego obrazu.
 
     *Czemu:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+    > Jeśli ustawiona jest wysokość i szerokość, wymagana przestrzeń dla obrazu jest rezerwowana podczas ładowania strony. Jednak bez tych atrybutów przeglądarka nie zna rozmiaru obrazu i nie może zarezerwować dla niego odpowiedniej przestrzeni. Efektem będzie zmiana układu strony podczas ładowania (podczas ładowania obrazów).
 
-* [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
+* [ ] **Unikaj używania obrazów Base64:** ![medium] Możesz w końcu przekonwertować małe obrazy na base64, ale tak naprawdę nie jest to najlepsza praktyka.
 
     * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
     * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
     * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
    * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
 
-* [ ] **Lazy loading:** ![medium] Offscreen images are loaded lazily (A noscript fallback is always provided).
+* [ ] **Lazy loading:** ![medium] Obrazy poza ekranem są ładowane leniwie (zawsze dostępna jest rezerwowa kopia noscript).
 
     *Czemu:*
-    > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
+    > Poprawi to czas odpowiedzi bieżącej strony, a następnie pozwoli uniknąć ładowania niepotrzebnych obrazów, których użytkownik może nie potrzebować.
 
     *Jak:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
-    ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only. <br>
-    ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
+    > ⁃ Użyj [Lighthouse](https://developers.google.com/web/tools/lighthouse/) aby określić, ile **obrazów jest poza ekranem**.<br>
+    ⁃ Użyj wtyczki JavaScript takiej jak poniżej, aby lazyloadować swoje obrazy. Pamiętaj, aby kierować reklamy tylko na obrazy poza ekranem. <br>
+    ⁃ Upewnij się także, że alternatywne 'leniwe ładowane' obrazy są wyświetlane po najechaniu myszką lub po wykonaniu innych czynności przez użytkownika.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
     * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
     * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
-* [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
+* [ ] **Responsywne obrazy:** ![medium] Pamiętaj, aby wyświetlać obrazy zbliżone do twojego rozmiaru wyświetlacza.
 
     *Czemu:*
-    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
+    > Niewielkie urządzenia nie potrzebują obrazów większych niż ich okno poglądu. Zalecane jest posiadanie wielu wersji jednego obrazu w różnych rozmiarach.
 
     *Jak:*
-    > ⁃ Create different image sizes for the devices you want to target. <br>
-    ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
+    > ⁃ Utwórz różne rozmiary obrazów dla urządzeń, na które chcesz kierować reklamy. <br>
+    ⁃ Użyj `srcset` i `picture` aby dostarczyć wiele wariantów każdego obrazu.
 
      * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
@@ -414,44 +413,44 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
 
 ![javascript]
 
-- [ ] **JS Minification:** ![high] All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
+- [ ] **Minifikacja JS:** ![high] Wszystkie pliki JavaScript są pomniejszone, komentarze, białe znaki i nowe wiersze są usuwane z plików produkcyjnych *(nadal ważne, używając HTTP/2)*.
 
     *Czemu:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your JavaScript files and speed up your site's page load times and obviously lighten the download for your user.
+    > Usunięcie wszystkich niepotrzebnych spacji, komentarzy i podziałów zmniejszy rozmiar plików JavaScript i przyspieszy czas wczytywania strony w twojej witrynie i oczywiście zmniejszy pobieranie pliku dla użytkownika.
 
     *Jak:*
-    > ⁃ Use the tools suggested below to minify your files automatically before or during your build or your deployment.
+    > ⁃ Skorzystaj z sugerowanych poniżej narzędzi, aby automatycznie zminimalizować pliki przed kompilacją lub wdrożeniem lub w jej trakcie.
 
     * 🛠 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
     * 🛠 [Online JavaScript Compressor](http://refresh-sf.com)
     * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
 
-* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
+* [ ] **Brak JavaScript w środku:** ![medium] *(Dotyczy tylko witryny internetowej)* Unikaj osadzania wielu kodów JavaScript w środku ciała (body). Zgrupuj kod JavaScript w plikach zewnętrznych lub ewentualnie w `<head>` lub na końcu strony (przed `</body>`).
 
     *Czemu:*
-    > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
+    > Umieszczanie kodu JavaScript osadzonego bezpośrednio w twoim `<body>` może spowolnić twoją stronę, ponieważ ładuje się podczas budowania DOM. Najlepszą opcją jest użycie plików zewnętrznych z `async` lub `defer` aby uniknąć blokowania DOM. Inną opcją jest umieszczenie niektórych skryptów w twoim `<head>`. Przez większość czasu kod analityczny lub mały skrypt, który należy załadować, zanim DOM przejdzie do głównego przetwarzania.
 
     *Jak:*
-    > Ensure that all your files are loaded using `async` or `defer` and decide wisely the code that you will need to inject in your `<head>`.
+    > Upewnij się, że wszystkie twoje pliki są ładowane przy użyciu `async` lub `defer` i mądrze zdecyduj, jaki kod będziesz musiał wprowadzić w `<head>`.
 
      * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
 
-* [ ] **Non-blocking JavaScript:** ![high] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **Nieblokujący JavaScript:** ![high] Pliki JavaScript są ładowane asynchronicznie za pomocą `async` lub odroczone za pomocą atrybutu `defer`.
 
     ```html
-    <!-- Defer Attribute -->
+    <!-- Atrybut Defer -->
     <script defer src="foo.js"></script>
 
-    <!-- Async Attribute -->
+    <!-- Atrybut Async  -->
     <script async src="foo.js"></script>
     ```
 
     *Czemu:*
-    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
+    > JavaScript blokuje normalne parsowanie dokumentu HTML, więc gdy parser osiągnie znacznik `<script>` (szczególnie znajduje się w `<head>`), przestaje go pobierać i uruchamiać. Dodanie `async` lub `defer` jest wysoce zalecane, jeśli twoje skrypty są umieszczone na górze strony, ale mniej wartościowe, jeśli są tuż przed tagiem `</body>`. Ale dobrą praktyką jest zawsze używanie tych atrybutów, aby uniknąć problemów z wydajnością.
 
     *Jak:*
-    > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag. <br>
-    ⁃ If you have small scripts, maybe use inline script place above async scripts.
+    > ⁃ Dodaj `async` (jeśli skrypt nie opiera się na innych skryptach) lub `defer` (jeśli skrypt opiera się na skrypcie asynchronicznym lub na nim polegał) jako atrybut tagu skryptu. <br>
+    ⁃ Jeśli masz małe skrypty, możesz użyć wbudowanego skryptu zamiast skryptów asynchronicznych.
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
     * 📖 [Defer loading JavaScript](https://varvy.com/pagespeed/defer-loading-javascript.html)
@@ -504,7 +503,7 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
 
 **[⬆ powrót do góry](#spis-treści)**
 
-## Server
+## Serwer
 
 ![server-side]
 
@@ -650,7 +649,7 @@ Jeśli masz jakieś pytania lub sugestie, nie wahaj się skorzystać z Discord l
 
 ## Autor
 
-**Stworzone z ❤️ od [David Dias](https://github.com/thedaviddias)
+**Stworzone** z ❤️ od [David Dias](https://github.com/thedaviddias)
 
 ## Współtwórcy
 
