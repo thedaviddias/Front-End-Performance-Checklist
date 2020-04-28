@@ -455,38 +455,38 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
     * 📖 [Defer loading JavaScript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
-* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
+* [ ] **Zoptymalizowane i zaktualizowane biblioteki JS:** ![medium] Wszystkie biblioteki JavaScript używane w twoim projekcie są konieczne (preferowana Vanilla JavaScript dla prostych funkcjonalności), zaktualizowane do najnowszej wersji i nie przytłaczają JavaScript niepotrzebnymi metodami.
 
     *Czemu:*
-    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
+    > W większości przypadków nowe wersje są dostarczane z optymalizacją i poprawką bezpieczeństwa. Powinieneś użyć najbardziej zoptymalizowanego kodu, aby przyspieszyć swój projekt i upewnić się, że nie spowolnisz swojej witryny lub aplikacji bez przestarzałej wtyczki.
 
     *Jak:*
-    > If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
-    > [Greenkeeper](https://greenkeeper.io/) can automatically look for your dependencies and suggest an update every time a new version is out.
+    > Jeśli twój projekt używa pakietów NPM, [npm-check](https://www.npmjs.com/package/npm-check) jest całkiem interesującą biblioteką do upgrade'u / aktualizacji bibliotek.
+    > [Greenkeeper](https://greenkeeper.io/) może automatycznie szukać zależności i sugerować aktualizację za każdym razem, gdy wychodzi nowa wersja.
 
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
+- [ ] **Sprawdź limit wielkości zależności:** ![low] Upewnij się, że korzystasz mądrze z zewnętrznych bibliotek, przez większość czasu możesz używać lżejszej biblioteki dla tej samej funkcjonalności.
 
     *Czemu:*
-    > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
+    > Możesz mieć ochotę skorzystać z jednego z 745 000 pakietów, które możesz znaleźć z [npm](https://www.npmjs.com/), ale musisz wybrać najlepszy pakiet dla swoich potrzeb. Na przykład MomentJS jest niesamowitą biblioteką, ale z wieloma metodami, których nigdy możesz nie użyć, właśnie dlatego utworzono Day.js. To tylko 2kB vs 16,4kB gz dla Moment.
 
     *Jak:*
-    > Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
+    > Zawsze porównuj i wybieraj najlepszą i lżejszą bibliotekę dla swoich potrzeb. Możesz także użyć narzędzi takich jak [npm trends](http://www.npmtrends.com/) aby porównać liczbę pobrań pakietów NPM lub [Bundlephobia](https://bundlephobia.com/) aby poznać rozmiar swoich zależności.
 
     * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
     * 🛠 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
     * 🛠 [js-dependency-viewer - npm](https://www.npmjs.com/package/js-dependency-viewer)
     * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-- [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
+- [ ] **JavaScript Profiling:** ![medium] Sprawdź problemy z wydajnością w swoich plikach JavaScript (i CSS).
 
     *Czemu:*
-    > JavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience.
+    > Złożoność JavaScript może spowolnić działanie środowiska wykonawczego. Zidentyfikowanie tych możliwych problemów jest niezbędne, aby zapewnić jak najbardziej płynną obsługę.
 
     *Jak:*
-    > Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
+    > Użyj narzędzia Timeline Tool w Chrome Developer Tool, aby ocenić zdarzenia związane ze skryptami i znaleźć takie, które mogą zająć zbyt dużo czasu.
 
      * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
     * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
@@ -494,7 +494,7 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
     * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
     * 📖 [30 Tips To Improve Javascript Performance](http://www.monitis.com/blog/30-tips-to-improve-javascript-performance/)
 
-- [ ] **Use of Service Workers:** ![medium] You are using Service Workers in your PWA to cache data or execute possible heavy tasks without impacting the user experience of your application.
+- [ ] **Zastosowanie Service Workers:** ![medium] Korzystasz z Service Workers w swoim PWA do buforowania danych lub wykonywania możliwych ciężkich zadań bez wpływu na komfort użytkowania aplikacji.
    
     * 📖 [Service Workers: an Introduction  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/)
     * 📖 [Measuring the Real-world Performance Impact of Service Workers  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2016/service-worker-perf)
@@ -507,10 +507,10 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
 
 ![server-side]
 
-- [ ] **Your website is using HTTPS:** ![high]
+- [ ] **Twoja strona korzysta z HTTPS:** ![high]
 
     *Czemu:*
-    > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
+    > HTTPS jest przeznaczony nie tylko dla witryn e-commerce, ale dla wszystkich witryn, które wymieniają dane. Dane udostępniane przez użytkownika lub dane udostępniane podmiotowi zewnętrznemu. Współczesne przeglądarki ograniczają funkcjonalność witryn, które nie są bezpieczne. Na przykład: geolokalizacja, powiadomienia wypychane i pracownicy usług nie działają, jeśli Twoja instancja nie używa HTTPS. A dzisiaj łatwiej jest skonfigurować projekt z certyfikatem SSL niż wcześniej (i za darmo dzięki [Let's Encrypt](https://letsencrypt.org/)).
 
  * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
  * 📖 [Enabling HTTPS Without Sacrificing Your Web Performance - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
@@ -518,44 +518,44 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
  * 📖 [HTTP versus HTTPS versus HTTP2 - The real story | Tune The Web](https://www.tunetheweb.com/blog/http-versus-https-versus-http2/)
  * 📖 [HTTP vs HTTPS — Test them both yourself](https://www.httpvshttps.com/)
 
-- [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
+- [ ] **Waga strony < 1500 KB (idealnie < 500 KB):** ![high] Zmniejsz rozmiar strony + zasoby tak bardzo, jak to możliwe.
 
     *Czemu:*
-    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, network connection, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
+    > Najlepiej jest spróbować kierować reklamy na <500 KB, ale stan sieci pokazuje, że mediana kilobajtów wynosi około 1500 KB (nawet na urządzeniach mobilnych). W zależności od docelowych użytkowników, połączenia sieciowego i urządzeń ważne jest, aby maksymalnie zmniejszyć całkowitą liczbę kilobajtów, aby zapewnić jak najlepszą obsługę.
 
     *Jak:*
-    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
+    > ⁃ Wszystkie zasady znajdujące się na liście kontrolnej wydajności frontendu pomogą ci maksymalnie ograniczyć zasoby i kod.
 
     * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
     * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
     * 🛠 [web - Measure full page size in Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
 
-- [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
+- [ ] **Czasy ładowania strony < 3 sekund:** ![high] Skróć maksymalnie czas ładowania strony, aby szybko dostarczać treści użytkownikom
 
     *Czemu:*
-    > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
+    > Im szybsza jest twoja strona internetowa lub aplikacja, tym mniejsze prawdopodobieństwo wzrostu odrzuceń, innymi słowy masz mniejsze szanse na utratę użytkownika lub przyszłego klienta. Dowodem na to są wystarczające badania na ten temat.
 
     *Jak:*
-    > Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
+    > Użyj narzędzi online, takich jak [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) lub [WebPageTest](https://www.webpagetest.org/) aby przeanalizować, co może cię spowalniać, i skorzystaj z Listy kontrolnej wydajności frontendu, aby skrócić czas ładowania.
 
     * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
     * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
     * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
-- [ ] **Time To First Byte < 1.3 seconds:** ![high] Reduce as much as you can the time your browser waits before receiving data.
+- [ ] **Time To First Byte < 1.3 sekund:** ![high] Skróć maksymalnie, ile możesz, czas oczekiwania przeglądarki przed otrzymaniem danych.
 
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
     * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
     * 🛠 [Global latency testing tool](https://latency.apex.sh)
 
-* [ ] **Cookie size:** ![medium] If you are using cookies, be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **Rozmiar cookie:** ![medium] Jeśli używasz plików cookie, upewnij się, że każdy plik cookie nie przekracza 4096 bajtów, a nazwa domeny nie zawiera więcej, niż 20 plików cookie.
 
     *Czemu:*
-    > Cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+    > Pliki cookie są wymieniane w nagłówkach HTTP między serwerami internetowymi, a przeglądarkami. Ważne jest, aby rozmiar plików cookie był jak najniższy, aby zminimalizować wpływ na czas reakcji użytkownika.
 
     *Jak:*
-    > Eliminate unnecessary cookies.
+    > Wyeliminuj niepotrzebne pliki cookie.
 
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
@@ -563,24 +563,24 @@ Lista narzędzi, których możesz użyć do testowania lub monitorowania swojej 
     * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
     * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
+- [ ] **Minimalizowanie żądań HTTP:** ![high] Zawsze upewnij się, że każdy zażądany plik jest niezbędny dla twojej witryny lub aplikacji.
  * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
  * 📖 [Combine external JavaScript](https://varvy.com/pagespeed/combine-external-javascript.html)
 
-- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
+- [ ] **Użyj CDN, aby dostarczyć swoje assety:** ![medium] Skorzystaj z CDN, aby szybciej dostarczać treści na cały świat.
 
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve files from the same protocol:** ![high] Avoid having your website serving files coming from source using HTTP on your website which is using HTTPS for example. If your website is using HTTPS, external files should come from the same protocol.
+- [ ] **Serwuj pliki z tego samego protokołu:** ![high] Unikaj wyświetlania w witrynie plików pochodzących ze źródła za pomocą protokołu HTTP w witrynie, która używa na przykład HTTPS. Jeśli witryna korzysta z HTTPS, pliki zewnętrzne powinny pochodzić z tego samego protokołu.
 
-- [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
+- [ ] **Podaj pliki osiągalne:** ![high] Unikaj żądania plików nieosiągalnych (404).
  * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+- [ ] **Ustaw poprawnie nagłówki pamięci podręcznej HTTP:** ![high] Ustaw nagłówki HTTP, aby uniknąć kosztownej liczby zwrotów między przeglądarką, a serwerem.
  * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
+- [ ] **Kompresja GZIP / Brotli jest włączona:** ![high] Użyj metody kompresji, takiej jak Gzip lub Brotli, aby zmniejszyć rozmiar plików JavaScript. Dzięki plikowi o mniejszych rozmiarach użytkownicy będą mogli szybciej pobierać zasób, co poprawi wydajność.
 
  * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
