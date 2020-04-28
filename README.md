@@ -49,7 +49,7 @@
 4. **[Obrazy](#obrazy)**
 5. **[JavaScript](#javascript)**
 6. **[Serwer](#serwer) (w trakcie)**
-7. **[Frameworki JS](#wydajności-i-frameworki-js) (w trakcie)**
+7. **[Frameworki JS](#wydajno%C5%9B%C4%87-i-frameworki-js) (w trakcie)**
 
 ## Wprowadzenie
 
