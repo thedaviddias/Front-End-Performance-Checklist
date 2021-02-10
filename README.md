@@ -177,6 +177,7 @@ List of the tools you can use to test or monitor your website or application:
     > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
 
     * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
+    * 🛠 [CSS Minfier](https://goonlinetools.com/css-minifier/)
     * 🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
     * 🛠 [Online CSS Compressor](http://refresh-sf.com)
 
