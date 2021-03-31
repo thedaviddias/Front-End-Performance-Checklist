@@ -33,6 +33,7 @@
   <a href="https://github.com/fernandofawkes/Front-End-Performance-Checklist">🇵🇹</a>
   <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
   <a href="https://github.com/GameWith/Front-End-Performance-Checklist">🇯🇵</a>
+  <a href="https://github.com/ms-fadaei/Front-End-Performance-Checklist">🇮🇷</a>
 </p>
 
 <p align="center">
@@ -640,6 +641,7 @@ The Front-End Performance Checklist wants to also be available in other language
 * 🇻🇮 Vietnamese : [huynhan147/Front-End-Performance-Checklist](https://github.com/huynhan147/FrontEnd-Performance-Checklist)
 * 🇯🇵 Japanese: [GameWith/Front-End-Performance-Checklist](https://github.com/GameWith/Front-End-Performance-Checklist)
 * 🇵🇱 Polish: [mbiesiad/Front-End-Performance-Checklist](https://github.com/mbiesiad/Front-End-Performance-Checklist)
+* 🇮🇷 Persian: [ms-fadaei/Front-End-Performance-Checklist](https://github.com/ms-fadaei/Front-End-Performance-Checklist)
 
 ## Contributing
 
