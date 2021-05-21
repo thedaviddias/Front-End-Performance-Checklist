@@ -587,8 +587,8 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
 
- * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
- * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
+ * 🛠 [Check GZIP compression](https://checkgzipcompression.net/)
+ * 🛠 [Check Brotli Compression](https://www.brotli.pro/)
  * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
 
 **[⬆ back to top](#table-of-contents)**
