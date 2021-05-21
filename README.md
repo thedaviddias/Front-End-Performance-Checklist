@@ -428,7 +428,6 @@ List of the tools you can use to test or monitor your website or application:
 
     * 🛠 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
     * 🛠 [Online JavaScript Compressor](http://refresh-sf.com)
-    * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
 
 * [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
 
