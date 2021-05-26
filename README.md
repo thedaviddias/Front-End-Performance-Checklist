@@ -563,8 +563,6 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-    * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
-    * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
     * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
 - [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
