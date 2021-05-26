@@ -58,9 +58,9 @@ Performance is a huge subject, but it's not always a "back-end" or an "admin" su
 
 ### How to use?
 
-For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 media that can complete the checklist.
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority:
+All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritized some rules amount others. There are 3 levels of priority:
 
 * ![Low][low] means that the item has a **low** priority.
 * ![Medium][medium] means that the item has a **medium** priority. You shouldn't avoid tackling that item.
@@ -116,7 +116,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
 
     *Why:*
-    > Removing all unnecessary spaces, comments and attributes will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
+    > Removing all unnecessary spaces, comments and attributes will reduce the size of your HTML and speeds up your site's page load times and obviously lighten the download for your user.
 
     *How:*
     > Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
