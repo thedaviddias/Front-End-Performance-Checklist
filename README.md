@@ -150,7 +150,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Pre-load optimization with prefetch, dns-prefetch and prerender:** ![low] Popular browsers can use directive on `<link>` tag and "rel" attribute with certain keywords to pre-load specific URLs.
 
     *Why:*
-    > Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access in the near future. The browser is able to store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user go in a particular link (already prefetched), the content will be instantly served.
+    > Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access shortly. The browser can store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user goes in a particular link (already prefetched), the content will be instantly served.
 
     *How:*
     > ⁃ Ensure that `<link>` is in your `<head>` section.
@@ -168,7 +168,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
 
     *Why:*
-    > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
+    > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business that wants to lower bandwidth costs and lower resource usage.
 
     *How:*
     > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
@@ -192,7 +192,7 @@ List of the tools you can use to test or monitor your website or application:
     ```
 
     *Why:*
-    > If you are still using HTTP/1, you may need to still concatenate your files, it's less true if your server use HTTP/2 (tests should be made).
+    > If you are still using HTTP/1, you may need to still concatenate your files, it's less true if your server uses HTTP/2 (tests should be made).
 
     *How:*
     > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files. <br>
@@ -299,7 +299,7 @@ List of the tools you can use to test or monitor your website or application:
     ```
 
     *Why:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to lookup the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
+    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup to complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to look up the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the CSS file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
 
     *How:*
     > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
@@ -353,7 +353,7 @@ List of the tools you can use to test or monitor your website or application:
 * [ ] **Images format:** ![high] Choose your image format appropriately.
 
     *Why:*
-    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
+    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the next-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
 
     *How:*
     > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP) <br>
@@ -372,7 +372,7 @@ List of the tools you can use to test or monitor your website or application:
 * [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
 
     *Why:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space for it. The effect will be that the page layout will change during loading (while the images load).
 
 * [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
 
