@@ -250,7 +250,7 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
 
     *Why:*
-    > One of the first reason it's because it's a good practice to **separate content from design**. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decreases the file-size of your HTML pages and the load time.
+    > One of the first reason it's because it's a good practice to **separate content from design**. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decreases the file size of your HTML pages and the load time.
 
     *How:*
     > Always use external stylesheets or embed CSS in your `<head>` (and follow the others CSS performance rules)
@@ -456,7 +456,7 @@ List of the tools you can use to test or monitor your website or application:
 * [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
     *Why:*
-    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
+    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without the outdated plugin.
 
     *How:*
     > If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
@@ -556,9 +556,9 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
+- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested is essential for your website or application.
 
-- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
+- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver your content faster over the world.
 
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
@@ -567,9 +567,9 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
+- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid an expensive number of roundtrips between your browser and the server.
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
+- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller size file, users will be able to download the asset faster, resulting in improved performance.
 
  * 🛠 [Check GZIP compression](https://checkgzipcompression.net/)
  * 🛠 [Check Brotli Compression](https://www.brotli.pro/)
