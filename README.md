@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="http://feedback.frontendchecklist.io/">Roadmap</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
+  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
 
 <p align="center">
@@ -41,16 +41,6 @@
     <br>
   🗂 <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Front-End Checklist</a> • 💎 <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Front-End Design Checklist</a>
 </p>
-
-## Table of Contents
-
-1. **[HTML](#html)**
-2. **[CSS](#css)**
-3. **[Fonts](#fonts)**
-4. **[Images](#images)**
-5. **[JavaScript](#javascript)**
-6. **[Server](#server) (in progress)**
-7. **[JS Frameworks](#performances-and-js-frameworks) (in progress)**
 
 ## Introduction
 
