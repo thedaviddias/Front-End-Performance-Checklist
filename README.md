@@ -225,7 +225,7 @@ List of the tools you can use to test or monitor your website or application:
     > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
 
     *How:*
-    > ⁃ ⚠️ Always check if the framework CSS you want to use don't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
+    > ⁃ ⚠️ Always check if the framework CSS you want to use doesn't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
 
     * 🛠 [UnCSS Online](https://uncss-online.com/)
     * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
@@ -257,13 +257,13 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
-- [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
+- [ ] **Analyze stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
 
     *Why:*
-    > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
+    > Sometimes you may have redundancies or validation errors in your CSS, analyzing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
 
     *How:*
-    > Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analysing and correct your code.
+    > Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analyzing and correct your code.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 🛠 [CSS Stats](https://cssstats.com/)
@@ -303,7 +303,7 @@ List of the tools you can use to test or monitor your website or application:
 
     *How:*
     > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
+    ⁃ Look for teal-colored DNS lookups and note the host that is being requested <br>
     ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
 
     * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
