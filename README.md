@@ -85,7 +85,6 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Uptime Robot](https://uptimerobot.com)
  * 🛠 [SpeedCurve: Monitor front-end performance](https://speedcurve.com)
  * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
- * 🛠 [Varvy - Page speed optimization]( https://varvy.com/pagespeed/)
  * 🛠 [Lighthouse - Google]( https://developers.google.com/web/tools/lighthouse/#devtools)
  * 🛠 [Checkbot browser extension - Checks for web performance best practices](https://www.checkbot.io/)
  * 🛠 [Yellow Lab Tools | Online test to help speeding up heavy web pages](https://yellowlab.tools/)
@@ -104,7 +103,6 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
  * 📖 [Front-End Performance Checklist 2021 [PDF, Apple Pages, MS Word]](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
  * 📖 [Designing for Performance Weighing Aesthetics and Speed - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
- * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
  * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
  * 📖 [Checkbot - Web Speed Best Practices](https://www.checkbot.io/guide/speed/)
  * 🛠 [Progressive Tooling - A list of community-built, third-party tools that can be used to improve page performance](https://progressivetooling.com/)
@@ -146,8 +144,6 @@ List of the tools you can use to test or monitor your website or application:
 
     *How:*
     > ⁃ Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
-
-    * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
 - [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid iframes as much as you can.
 
@@ -456,7 +452,6 @@ List of the tools you can use to test or monitor your website or application:
     ⁃ If you have small scripts, maybe use inline script place above async scripts.
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
-    * 📖 [Defer loading JavaScript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
 * [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
@@ -548,7 +543,6 @@ List of the tools you can use to test or monitor your website or application:
 
     * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
     * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
-    * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
     * 🛠 [Global latency testing tool](https://latency.apex.sh)
 
 * [ ] **Cookie size:** ![medium] If you are using cookies, be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
@@ -563,8 +557,6 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 - [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
- * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
- * 📖 [Combine external JavaScript](https://varvy.com/pagespeed/combine-external-javascript.html)
 
 - [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
 
@@ -574,10 +566,8 @@ List of the tools you can use to test or monitor your website or application:
 - [ ] **Serve files from the same protocol:** ![high] Avoid having your website serving files coming from source using HTTP on your website which is using HTTPS for example. If your website is using HTTPS, external files should come from the same protocol.
 
 - [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
- * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
 - [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
- * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
 
 - [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
 
