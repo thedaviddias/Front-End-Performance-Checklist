@@ -153,7 +153,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
     * 📖 [What is Preload, Prefetch, and Preconnect](https://www.keycdn.com/blog/resource-hints)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#introduction)**
 
 ## CSS
 
@@ -264,7 +264,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
     * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#introduction)**
 
 ## Fonts
 
@@ -315,7 +315,7 @@ List of the tools you can use to test or monitor your website or application:
  * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#introduction)**
 
 ## Images
 
@@ -402,7 +402,7 @@ List of the tools you can use to test or monitor your website or application:
 
      * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#introduction)**
 
 ## JavaScript
 
@@ -496,7 +496,7 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [What Are Service Workers and How They Help Improve Performance](https://www.keycdn.com/blog/service-workers/)
     * 📹 [How does a service worker work? - YouTube](https://www.youtube.com/watch?v=__xAtWgfzvc)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#introduction)**
 
 ## Server
 
@@ -581,7 +581,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
  * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#introduction)**
 
 ---
 ## Performances and JS Frameworks
@@ -685,7 +685,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 All icons are provided by [Icons8](https://icons8.com/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#introduction)**
 
 [logo]: images/logo-front-end-performance-checklist.jpg
 [html]: images/html.png
