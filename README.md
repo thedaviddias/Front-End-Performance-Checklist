@@ -368,6 +368,8 @@ List of the tools you can use to test or monitor your website or application:
     *Why:*
     > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
 
+    * 📖 [Why We Should Use Height & Width Attributes on the HTML img Tag](https://www.ltvco.com/engineering/height-width-attributes-img-tag/)
+
 * [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
 
     * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
