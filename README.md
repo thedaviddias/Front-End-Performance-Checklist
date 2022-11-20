@@ -34,6 +34,9 @@
   <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
   <a href="https://github.com/GameWith/Front-End-Performance-Checklist">🇯🇵</a>
   <a href="https://github.com/ms-fadaei/Front-End-Performance-Checklist">🇮🇷</a>
+  <a href="https://github.com/dagerzuga/Front-End-Performance-Checklist">🇪🇸</a>
+  <a href="https://github.com/huynhan147/FrontEnd-Performance-Checklist">🇻🇳</a>
+  <a href="https://github.com/mbiesiad/Front-End-Performance-Checklist">🇵🇱</a>
 </p>
 
 <p align="center">
