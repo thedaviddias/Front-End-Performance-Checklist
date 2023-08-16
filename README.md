@@ -7,6 +7,10 @@
   <br>
 </h1>
 
+---
+<h3 align="center">🚨 Currently working on new version of frontendchecklist.io (that will include the current performance),<br>feel free to <a href="https://github.com/thedaviddias/Front-End-Checklist/discussions/513">discuss</a> any feature you would like to see. Thanks for your support!</h3>
+---
+
 <h4 align="center">🎮 The only Front-End Performance Checklist that runs faster than the others.</h4>
 <p align="center">One simple rule: "Design and code with performance in mind"</p>
 
