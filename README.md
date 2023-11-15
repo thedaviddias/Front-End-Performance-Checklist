@@ -348,6 +348,7 @@ List of the tools you can use to test or monitor your website or application:
     * 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
     * 🛠 [ImageEngine - Image Webpage Loading Test](https://demo.imgeng.in)
     * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
+    * 🛠 [Squoosh - An image compression web app that reduces image sizes through numerous formats by GoogleChromeLabs.](https://squoosh.app/)
 
 
 * [ ] **Images format:** ![high] Choose your image format appropriately.
