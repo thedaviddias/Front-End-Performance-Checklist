@@ -585,6 +585,7 @@ List of the tools you can use to test or monitor your website or application:
 
  * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
  * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
+ * 📖 [Learn more about Brotli Compression](https://www.brotli.pro/)
  * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
 
 **[⬆ back to top](#table-of-contents)**
