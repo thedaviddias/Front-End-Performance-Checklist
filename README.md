@@ -3,18 +3,18 @@
   <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist"><img src="https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/master/images/logo-front-end-performance-checklist.jpg" alt="Front-End Performance Checklist" width="170"></a>
   <br>
     <br>
-  Front-End Performance Checklist
+  Daftar Periksa Performa Front-End
   <br>
 </h1>
 
 ---
 
-<h3 align="center">🚨 Currently working on new version of frontendchecklist.io <br>(that will include the current performance).<br>Feel free to <a href="https://github.com/thedaviddias/Front-End-Checklist/discussions/513">discuss</a> any feature you would like to see. Thanks for your support!</h3>
+<h3 align="center">🚨 Saat ini sedang mengerjakan versi baru dari frontendchecklist.io <br>(yang akan mencakup performa saat ini).<br>Jangan ragu untuk <a href="https://github.com/thedaviddias/Front-End-Checklist/discussions/513">diskusi</a> tentang fitur yang ingin Anda lihat. Terima kasih atas dukungannya!</h3>
 
 ---
 
-<h4 align="center">🎮 The only Front-End Performance Checklist that runs faster than the others.</h4>
-<p align="center">One simple rule: "Design and code with performance in mind"</p>
+<h4 align="center">🎮 Satu-satunya Daftar Periksa Performa Front-End yang berjalan lebih cepat dari yang lain.</h4>
+<p align="center">Satu aturan sederhana: "Desain dan kode dengan performa dalam pikiran"</p>
 
 <p align="center">
   <a href="http://makeapullrequest.com">
@@ -24,12 +24,12 @@
     <img src="https://img.shields.io/badge/chat-on_discord-4837E2.svg?style=flat-square" alt="Discord">
   </a>
     <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Licence MIT">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Lisensi MIT">
   </a>
 </p>
 
 <p align="center">
-  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
+  <a href="#cara-menggunakan">Cara Menggunakan</a> • <a href="#berkontribusi">Berkontribusi</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
 </p>
 
 <p align="center">
@@ -40,34 +40,35 @@
   <a href="https://github.com/lex111/Front-End-Performance-Checklist">🇷🇺</a>
   <a href="https://github.com/GameWith/Front-End-Performance-Checklist">🇯🇵</a>
   <a href="https://github.com/ms-fadaei/Front-End-Performance-Checklist">🇮🇷</a>
+  <a href="https://github.com/narr07/Front-End-Performance-Checklist">🇮🇩</a>
 </p>
 
 <p align="center">
-    <span>Other Checklists:</span>
+    <span>Daftar Periksa Lainnya:</span>
     <br>
   🗂 <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Front-End Checklist</a> • 💎 <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Front-End Design Checklist</a>
 </p>
 
-## Introduction
+## Pengantar
 
-Performance is a huge subject, but it's not always a "back-end" or an "admin" subject: it's a Front-End responsibility too. The Front-End Performance Checklist is an exhaustive list of elements you should check or at least be aware of, as a Front-End developer and apply to your project (personal and professional).
+Performa adalah topik yang besar, tapi nggak selalu soal "back-end" atau "admin": ini juga tanggung jawab Front-End. Daftar Periksa Performa Front-End ini adalah daftar lengkap elemen yang harus Anda cek atau setidaknya ketahui, sebagai pengembang Front-End dan terapkan pada proyek Anda (pribadi dan profesional).
 
-### How to use?
+### Cara Menggunakan?
 
-For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+Untuk setiap aturan, Anda akan memiliki paragraf yang menjelaskan *mengapa* aturan ini penting dan *bagaimana* Anda bisa memperbaikinya. Untuk informasi lebih mendalam, Anda akan menemukan tautan yang akan mengarah ke 🛠 alat, 📖 artikel, atau 📹 media yang dapat melengkapi daftar periksa.
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority:
+Semua item dalam **Daftar Periksa Performa Front-End** ini penting untuk mencapai skor performa tertinggi, tetapi Anda akan menemukan indikator untuk membantu memprioritaskan beberapa aturan di antara yang lain. Ada 3 tingkat prioritas:
 
-* ![Low][low] means that the item has a **low** priority.
-* ![Medium][medium] means that the item has a **medium** priority. You shouldn't avoid tackling that item.
-* ![High][high] means that the item has a **high** priority. You can't avoid following that rule and implement the corrections recommended.
+* ![Low][low] berarti item tersebut memiliki prioritas **rendah**.
+* ![Medium][medium] berarti item tersebut memiliki prioritas **sedang**. Anda sebaiknya tidak menghindari menangani item tersebut.
+* ![High][high] berarti item tersebut memiliki prioritas **tinggi**. Anda tidak bisa menghindari mengikuti aturan tersebut dan menerapkan perbaikan yang direkomendasikan.
 
 ### Performance tools
 
-List of the tools you can use to test or monitor your website or application:
+Daftar tools yang bisa Anda gunakan untuk menguji atau memantau situs web atau aplikasi Anda:
 
  * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
- * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
+ * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (gunakan kupon WPCDD20 untuk diskon 20%)
  * 🛠 [Treo: Page Speed Monitoring](https://treo.sh/?ref=perfchecklist)
  * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
@@ -91,7 +92,7 @@ List of the tools you can use to test or monitor your website or application:
  * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
  * 🛠 [LogRocket - Measure front-end performance in production apps](https://logrocket.com)
 
-### References
+### Referensi
 
  * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
  * [AddyOsmani.com - Start Performance Budgeting](https://addyosmani.com/blog/performance-budgets/)
@@ -111,166 +112,167 @@ List of the tools you can use to test or monitor your website or application:
 
 ![html]
 
-- [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
+- [ ] **HTML yang Diperkecil:** ![medium] Kode HTML diperkecil, komentar, spasi putih, dan baris baru dihapus dari file produksi.
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and attributes will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
+    *Kenapa:*
+    > Menghapus semua spasi, komentar, dan atribut yang tidak perlu akan mengurangi ukuran HTML dan mempercepat waktu muat halaman situs Anda serta meringankan unduhan bagi pengguna.
 
-    *How:*
-    > Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
+    *Gimana:*
+    > Kebanyakan framework punya plugin untuk mempermudah proses memperkecil halaman web. Anda bisa menggunakan banyak modul NPM yang bisa melakukan ini secara otomatis.
 
     * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
     * 🛠 [Online HTML Compressor](http://refresh-sf.com)
     * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
    
-- [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
+- [ ] **Tempatkan tag CSS selalu sebelum tag JavaScript:** ![high] Pastikan CSS Anda selalu dimuat sebelum kode JavaScript.
 
     ```html
-    <!-- Not recommended -->
+    <!-- Tidak disarankan -->
     <script src="jquery.js"></script>
     <script src="foo.js"></script>
     <link rel="stylesheet" href="foo.css"/>
 
-    <!-- Recommended -->
+    <!-- Disarankan -->
     <link rel="stylesheet" href="foo.css"/>
     <script src="jquery.js"></script>
     <script src="foo.js"></script>
     ```
 
-    *Why:*
-    > Having your CSS tags before any JavaScript enables better, parallel download which speed up browser rendering time.
+    *Kenapa:*
+    > Menempatkan tag CSS sebelum JavaScript memungkinkan unduhan paralel yang lebih baik, mempercepat waktu rendering browser.
 
-    *How:*
-    > ⁃ Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
+    *Gimana:*
+    > ⁃ Pastikan `<link>` dan `<style>` di dalam `<head>` selalu sebelum `<script>`.
 
     * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
 
-- [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid iframes as much as you can.
+- [ ] **Minimalkan jumlah iframes:** ![high] Gunakan iframe hanya jika tidak ada kemungkinan teknis lain. Cobalah untuk menghindari iframe sebanyak mungkin.
 
-- [ ] **Pre-load optimization with prefetch, dns-prefetch and prerender:** ![low] Popular browsers can use directive on `<link>` tag and "rel" attribute with certain keywords to pre-load specific URLs.
+- [ ] **Optimasi pre-load dengan prefetch, dns-prefetch, dan prerender:** ![low] Browser populer dapat menggunakan direktif pada tag `<link>` dan atribut "rel" dengan kata kunci tertentu untuk memuat URL tertentu sebelumnya.
 
-    *Why:*
-    > Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access in the near future. The browser is able to store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user go in a particular link (already prefetched), the content will be instantly served.
+    *Kenapa:*
+    > Prefetching memungkinkan browser untuk diam-diam mengambil sumber daya yang diperlukan untuk menampilkan konten yang mungkin diakses pengguna di masa depan. Browser dapat menyimpan sumber daya ini dalam cache dan mempercepat cara halaman web dimuat saat menggunakan domain berbeda untuk sumber daya halaman. Ketika halaman web selesai dimuat dan waktu idle telah berlalu, browser mulai mengunduh sumber daya lainnya. Ketika pengguna mengunjungi tautan tertentu (yang sudah di-prefetch), kontennya akan langsung disajikan.
 
-    *How:*
-    > ⁃ Ensure that `<link>` is in your `<head>` section.
+    *Gimana:*
+    > ⁃ Pastikan `<link>` ada di bagian `<head>`.
 
     * 📖 [What Is Prefetching and Why Use It](https://www.keycdn.com/support/prefetching)
     * 📖 [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
     * 📖 [What is Preload, Prefetch, and Preconnect](https://www.keycdn.com/blog/resource-hints)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ kembali ke atas](#cara-menggunakan)**
+
 
 ## CSS
 
 ![css]
 
-- [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Minifikasi:** ![high] Semua file CSS sudah diperkecil, komentar, spasi putih, dan baris baru dihapus dari file produksi.
 
-    *Why:*
-    > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
+    *Kenapa:*
+    > Ketika file CSS diperkecil, kontennya dimuat lebih cepat dan data yang dikirim ke klien lebih sedikit. Penting untuk selalu memperkecil file CSS di produksi. Ini bermanfaat bagi pengguna dan juga bisnis yang ingin mengurangi biaya bandwidth dan penggunaan sumber daya.
 
-    *How:*
-    > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
+    *Gimana:*
+    > ⁃ Gunakan alat untuk memperkecil file Anda secara otomatis sebelum atau selama proses build atau deployment.
 
     * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
-    * 🛠 [CSS Minfier](https://goonlinetools.com/css-minifier/)
+    * 🛠 [CSS Minifier](https://goonlinetools.com/css-minifier/)
     * 🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
     * 🛠 [Online CSS Compressor](http://refresh-sf.com)
 
-
-- [ ] **Concatenation:** ![medium] CSS files are concatenated in a single file *(Not always valid for HTTP/2)*.
+- [ ] **Penggabungan:** ![medium] File CSS digabungkan menjadi satu file *(Tidak selalu berlaku untuk HTTP/2)*.
 
     ```html
 
-    <!-- Not recommended -->
+    <!-- Tidak disarankan -->
     <link rel="stylesheet" href="foo.css"/>
     <link rel="stylesheet" href="bar.css"/>
 
-    <!-- Recommended -->
+    <!-- Disarankan -->
     <link rel="stylesheet" href="foobar.css"/>
     ```
 
-    *Why:*
-    > If you are still using HTTP/1, you may need to still concatenate your files, it's less true if your server use HTTP/2 (tests should be made).
+    *Kenapa:*
+    > Jika Anda masih menggunakan HTTP/1, Anda mungkin perlu tetap menggabungkan file Anda. Ini kurang relevan jika server Anda menggunakan HTTP/2 (perlu dilakukan pengujian).
 
-    *How:*
-    > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files. <br>
-    ⁃ Ensure, of course, that concatenation does not break your project.
+    *Gimana:*
+    > ⁃ Gunakan alat online atau plugin sebelum atau selama proses build atau deployment untuk menggabungkan file Anda. <br>
+    ⁃ Pastikan, tentu saja, bahwa penggabungan tidak merusak proyek Anda.
 
     * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
     * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
 
-- [ ] **Non-blocking:** ![high] CSS files need to be non-blocking to prevent the DOM from taking time to load.
+- [ ] **Non-blocking:** ![high] File CSS harus non-blocking untuk mencegah DOM memakan waktu lama untuk dimuat.
 
     ```html
     <link rel="preload" href="global.min.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="global.min.css"></noscript>
     ```
 
-    *Why:*
-    > CSS files can block the page load and delay the rendering of your page. Using `preload` can actually load the CSS files before the browser starts showing the content of the page.
+    *Kenapa:*
+    > File CSS bisa memblokir pemuatan halaman dan menunda rendering halaman Anda. Menggunakan `preload` bisa membantu memuat file CSS sebelum browser mulai menampilkan konten halaman.
 
-    *How:*
-    > ⁃ You need to add the `rel` attribute with the `preload` value and add `as="style"` on the `<link>` element.
+    *Gimana:*
+    > ⁃ Anda perlu menambahkan atribut `rel` dengan nilai `preload` dan menambahkan `as="style"` pada elemen `<link>`.
 
     * 🛠 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
     * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
     * 📖 [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
     * 📖 [Preload: What Is It Good For? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
 
-- [ ] **Unused CSS:** ![medium] Remove unused CSS selectors.
+- [ ] **CSS yang Tidak Digunakan:** ![medium] Hapus selektor CSS yang tidak digunakan.
 
-    *Why:*
-    > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
+    *Kenapa:*
+    > Menghapus selektor CSS yang tidak digunakan dapat mengurangi ukuran file Anda dan mempercepat pemuatan aset.
 
-    *How:*
-    > ⁃ ⚠️ Always check if the framework CSS you want to use don't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
+    *Gimana:*
+    > ⁃ ⚠️ Selalu periksa apakah framework CSS yang Anda gunakan sudah memiliki kode reset/normalize. Kadang-kadang Anda mungkin tidak memerlukan semuanya yang ada di dalam file reset/normalize.
 
     * 🛠 [UnCSS Online](https://uncss-online.com/)
     * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
     * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
     * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
-* [ ] **CSS Critical:** ![high] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified if possible).
+- [ ] **CSS Kritis:** ![high] CSS kritis (atau "above the fold") mengumpulkan semua CSS yang digunakan untuk merender bagian halaman yang terlihat. Ini disematkan sebelum panggilan CSS utama Anda dan di antara `<style></style>` dalam satu baris (diperlukan jika memungkinkan).
 
-    *Why:*
-    > Inlining critical CSS help to speed up the rendering of the web pages reducing the number of requests to the server.
+    *Kenapa:*
+    > Menyematkan CSS kritis membantu mempercepat rendering halaman web dengan mengurangi jumlah permintaan ke server.
 
-    *How:*
-    > Generate the CSS critical with online tools or using a plugin like the one that Addy Osmani developed.
+    *Gimana:*
+    > Hasilkan CSS kritis dengan alat online atau menggunakan plugin seperti yang dikembangkan oleh Addy Osmani.
 
     * 📖 [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
-    * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
+    * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) mengotomatisasi ini.
     * 📖 [Inlining critical CSS for better web performance | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
-     * 🛠 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
-     * 📖 [Reduce the size of the above-the-fold content
-](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
+    * 🛠 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
+    * 📖 [Reduce the size of the above-the-fold content](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
 
-- [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
+- [ ] **CSS yang Disematkan atau Inline:** ![high] Hindari menggunakan CSS yang disematkan atau inline di dalam `<body>` *(Tidak berlaku untuk HTTP/2)*.
 
-    *Why:*
-    > One of the first reason it's because it's a good practice to **separate content from design**. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decreases the file-size of your HTML pages and the load time.
+    *Kenapa:*
+    > Salah satu alasan utamanya adalah karena ini merupakan praktik yang baik untuk **memisahkan konten dari desain**. Ini juga membantu Anda memiliki kode yang lebih mudah dikelola dan menjaga situs Anda tetap aksesibel. Tapi terkait performa, ini karena mengurangi ukuran file halaman HTML Anda dan waktu pemuatan.
 
-    *How:*
-    > Always use external stylesheets or embed CSS in your `<head>` (and follow the others CSS performance rules)
+    *Gimana:*
+    > Selalu gunakan stylesheet eksternal atau sematkan CSS di dalam `<head>` (dan ikuti aturan performa CSS lainnya).
 
     * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
-- [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
+- [ ] **Analisis Kompleksitas Stylesheet:** ![high] Menganalisis stylesheet Anda dapat membantu menandai masalah, redundansi, dan duplikasi selektor CSS.
 
-    *Why:*
-    > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
+    *Kenapa:*
+    > Kadang-kadang Anda mungkin memiliki redundansi atau kesalahan validasi dalam CSS Anda. Menganalisis file CSS dan menghapus kompleksitas ini dapat membantu mempercepat file CSS Anda (karena browser Anda akan membacanya lebih cepat).
 
-    *How:*
-    > Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analysing and correct your code.
+    *Gimana:*
+    > CSS Anda harus terorganisir. Menggunakan preprocessor CSS dapat membantu Anda dengan ini. Beberapa alat online yang tercantum di bawah ini juga dapat membantu Anda menganalisis dan memperbaiki kode Anda.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
     * 🛠 [CSS Stats](https://cssstats.com/)
     * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
-    * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
+    * 🛠 [Project Wallace](https://www.projectwallace.com/) mirip dengan CSS Stats tapi menyimpan statistik dari waktu ke waktu sehingga Anda bisa melacak perubahan Anda.
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ kembali ke atas](#cara-menggunakan)**
+
+
 
 ## Fonts
 
@@ -278,216 +280,219 @@ List of the tools you can use to test or monitor your website or application:
 
 * 📖 [A Book Apart, Webfont Handbook](https://abookapart.com/products/webfont-handbook)
 
-- [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
+- [ ] **Format Webfont:** ![medium] Anda menggunakan WOFF2 pada proyek web atau aplikasi Anda.
 
-    *Why:*
-    > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
+    *Kenapa:*
+    > Menurut Google, format kompresi Web Font WOFF 2.0 menawarkan rata-rata peningkatan 30% dibandingkan WOFF 1.0. Jadi, bagus untuk menggunakan WOFF 2.0, WOFF 1.0 sebagai cadangan, dan TTF.
 
-    *How:*
-    > Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
+    *Gimana:*
+    > Periksa sebelum membeli font baru Anda bahwa penyedia memberikan format WOFF2. Jika Anda menggunakan font gratis, Anda selalu bisa menggunakan Font Squirrel untuk menghasilkan semua format yang Anda butuhkan.
 
-    * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
-    * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
-    * 🛠 [IcoMoon App - Icon Font, SVG, PDF & PNG Generator](https://icomoon.io/app/)
-    * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
-    * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
+    * 📖 [WOFF 2.0 – Pelajari lebih lanjut tentang Format Web Font generasi berikutnya dan konversi TTF ke WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
+    * 🛠 [Buat Kit @font-face Anda Sendiri » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
+    * 🛠 [Aplikasi IcoMoon - Generator Font Ikon, SVG, PDF & PNG](https://icomoon.io/app/)
+    * 📖 [Menggunakan @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
+    * 📖 [Bisakah saya menggunakan... WOFF2](https://caniuse.com/#feat=woff2)
 
-- [ ] **Use `preconnect` to load your fonts faster:** ![medium]
+- [ ] **Gunakan `preconnect` untuk memuat font lebih cepat:** ![medium]
 
     ```html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     ```
 
-    *Why:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to lookup the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
+    *Kenapa:*
+    > Ketika Anda mengunjungi sebuah situs web, perangkat Anda perlu menemukan di mana situs tersebut berada dan server mana yang harus dihubungi. Browser Anda harus menghubungi server DNS dan menunggu pencarian selesai sebelum mengambil sumber daya (font, file CSS...). Prefetch dan preconnect memungkinkan browser untuk mencari informasi DNS dan mulai membangun koneksi TCP ke server yang menyimpan file font. Ini memberikan peningkatan performa karena pada saat browser mulai mem-parsing file CSS dengan informasi font dan menemukan bahwa ia perlu meminta file font dari server, ia sudah memiliki informasi DNS yang telah di-resolve dan memiliki koneksi terbuka ke server yang siap di pool koneksi.
 
-    *How:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
+    *Gimana:*
+    > ⁃ Sebelum melakukan prefetching webfont Anda, gunakan webpagetest untuk mengevaluasi situs web Anda <br>
+    ⁃ Cari pencarian DNS berwarna teal dan catat host yang diminta <br>
+    ⁃ Prefetch webfont Anda di `<head>` Anda dan tambahkan juga hostnames yang perlu Anda prefetch
 
-    * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
-    * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
-    * 📖 [Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
-    * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
-    * 🛠 [typekit/webfontloader: Web Font Loader gives you added control when using linked fonts via @font-face.](https://github.com/typekit/webfontloader)
+    * 📖 [Google Fonts Lebih Cepat dengan Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
+    * 📖 [Buat Situs Anda Lebih Cepat dengan Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
+    * 📖 [Panduan Utama untuk Browser Hints: Preload, Prefetch, dan Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
+    * 📖 [Panduan Komprehensif untuk Strategi Pemuatan Font—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
+    * 🛠 [typekit/webfontloader: Web Font Loader memberi Anda kontrol tambahan saat menggunakan font yang terhubung melalui @font-face.](https://github.com/typekit/webfontloader)
 
-- [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
+- [ ] **Ukuran Webfont:** ![medium] Ukuran webfont tidak melebihi 300kb (termasuk semua varian)
 
- * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
+ * 📖 [Font Bytes - Berat Halaman](https://httparchive.org/reports/page-weight#bytesFont)
 
-- [ ] **Prevent Flash or Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
+- [ ] **Mencegah Flash atau Teks Tak Terlihat:** ![medium] Hindari teks transparan hingga Webfont dimuat
 
- * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
- * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
+ * 📖 [`font-display` untuk Semua Orang](https://css-tricks.com/font-display-masses/)
+ * 📖 [CSS font-display: Masa Depan Rendering Font di Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ kembali ke atas](#cara-menggunakan)**
+
+
 
 ## Images
 
 ![images]
 
- * 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
+* 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
 
-* [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
+* [ ] **Optimasi gambar:** ![high] Gambar Anda dioptimalkan, dikompresi tanpa dampak langsung pada pengguna akhir.
 
-    *Why:*
-    > Optimized images load faster in your browser and consume less data.
+    *Kenapa:*
+    > Gambar yang dioptimalkan dimuat lebih cepat di browser Anda dan mengkonsumsi lebih sedikit data.
 
-    *How:*
-    > ⁃ Try using CSS3 effects when it's possible (instead of a small image) <br>
-    ⁃ When it's possible, use fonts instead of text encoded in your images <br>
-    ⁃ Use SVG <br>
-    ⁃ Use a tool and specify a level compression under 85.
+    *Gimana:*
+    > ⁃ Coba gunakan efek CSS3 jika memungkinkan (daripada gambar kecil) <br>
+    ⁃ Jika memungkinkan, gunakan font daripada teks yang dikodekan dalam gambar Anda <br>
+    ⁃ Gunakan SVG <br>
+    ⁃ Gunakan alat dan tentukan tingkat kompresi di bawah 85.
 
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
     * 📖 [Essential Image Optimization - An eBook by Addy Osmani](https://images.guide/)
-    * 🛠 [TinyJPG – Compress JPEG images intelligently](https://tinyjpg.com/)
-    * 🛠 [Kraken.io - Online Image Optimizer](https://kraken.io/web-interface)
-    * 🛠 [Compressor.io - optimize and compress JPEG photos and PNG images](https://compressor.io/compress)
-    * 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
-    * 🛠 [ImageEngine - Image Webpage Loading Test](https://demo.imgeng.in)
-    * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
+    * 🛠 [TinyJPG – Kompres gambar JPEG secara cerdas](https://tinyjpg.com/)
+    * 🛠 [Kraken.io - Pengoptimal Gambar Online](https://kraken.io/web-interface)
+    * 🛠 [Compressor.io - optimalkan dan kompres foto JPEG dan gambar PNG](https://compressor.io/compress)
+    * 🛠 [Cloudinary - Alat Analisis Gambar](https://webspeedtest.cloudinary.com)
+    * 🛠 [ImageEngine - Tes Pemuatan Halaman Web Gambar](https://demo.imgeng.in)
+    * 🛠 [SVGOMG - Optimalkan file grafik vektor SVG](https://jakearchibald.github.io/svgomg/)
 
+* [ ] **Format gambar:** ![high] Pilih format gambar Anda dengan tepat.
 
-* [ ] **Images format:** ![high] Choose your image format appropriately.
+    *Kenapa:*
+    > Untuk memastikan gambar Anda tidak memperlambat situs web Anda, pilih format yang sesuai dengan gambar Anda. Jika itu foto, JPEG biasanya lebih sesuai daripada PNG atau GIF. Tapi jangan lupa untuk melihat format generasi berikutnya yang bisa mengurangi ukuran file Anda. Setiap format gambar memiliki kelebihan dan kekurangan, penting untuk mengetahui ini untuk membuat pilihan terbaik.
 
-    *Why:*
-    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
-
-    *How:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP) <br>
-    ⁃ Compare different formats, sometimes using PNG8 is better than PNG16, sometimes it's not.
+    *Gimana:*
+    > ⁃ Gunakan [Lighthouse](https://developers.google.com/web/tools/lighthouse/) untuk mengidentifikasi gambar mana yang bisa menggunakan **format generasi berikutnya** (seperti JPEG 2000, JPEG XR atau WebP) <br>
+    ⁃ Bandingkan berbagai format, terkadang menggunakan PNG8 lebih baik daripada PNG16, terkadang tidak.
 
     * 📖 [Serve Images in Next-Gen Formats  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
-    * 📖 [What Is the Right Image Format for Your Website? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
-    * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
-    * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
+    * 📖 [Apa Format Gambar yang Tepat untuk Situs Web Anda? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
+    * 📖 [PNG8 - Pemenang yang Jelas — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
+    * 📖 [8-bit vs 16-bit - Kedalaman Warna Mana yang Harus Anda Gunakan dan Mengapa Itu Penting - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-- [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
+- [ ] **Gunakan gambar vektor vs raster/bitmap:** ![medium] Lebih baik menggunakan gambar vektor daripada gambar bitmap (jika memungkinkan).
 
-    *Why:*
-    > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
+    *Kenapa:*
+    > Gambar vektor (SVG) cenderung lebih kecil daripada gambar bitmap dan SVG bersifat responsif serta skalanya sempurna. Gambar-gambar ini bisa dianimasikan dan dimodifikasi oleh CSS.
 
-* [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
+* [ ] **Dimensi gambar:** ![medium] Tentukan atribut `width` dan `height` pada `<img>` jika ukuran gambar yang dirender akhir diketahui.
 
-    *Why:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+    *Kenapa:*
+    > Jika tinggi dan lebar ditetapkan, ruang yang dibutuhkan untuk gambar akan disediakan saat halaman dimuat. Namun, tanpa atribut ini, browser tidak tahu ukuran gambar dan tidak bisa menyediakan ruang yang sesuai. Efeknya adalah tata letak halaman akan berubah selama pemuatan (saat gambar dimuat).
 
-* [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
+* [ ] **Hindari menggunakan gambar Base64:** ![medium] Anda bisa mengonversi gambar kecil ke base64, tetapi sebenarnya ini bukan praktik terbaik.
 
     * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
-    * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
-    * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
-   * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
+    * 📖 [Tinjauan lebih dekat pada performa gambar Base64 – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
+    * 📖 [Kapan harus mengkodekan gambar base64 (dan kapan tidak) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
+    * 📖 [Base64 encoding images untuk halaman lebih cepat | Faktor performa dan seo](https://varvy.com/pagespeed/base64-images.html)
 
-* [ ] **Lazy loading:** ![medium] Offscreen images are loaded lazily (A noscript fallback is always provided).
+* [ ] **Lazy loading:** ![medium] Gambar di luar layar dimuat secara malas (fallback noscript selalu disediakan).
 
-    *Why:*
-    > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
+    *Kenapa:*
+    > Ini akan meningkatkan waktu respons halaman saat ini dan kemudian menghindari pemuatan gambar yang tidak perlu yang mungkin tidak dibutuhkan pengguna.
 
-    *How:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
-    ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only. <br>
-    ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
+    *Gimana:*
+    > ⁃ Gunakan [Lighthouse](https://developers.google.com/web/tools/lighthouse/) untuk mengidentifikasi berapa banyak **gambar yang berada di luar layar**. <br>
+    ⁃ Gunakan plugin JavaScript seperti berikut ini untuk lazyload gambar Anda. Pastikan Anda menargetkan gambar di luar layar saja. <br>
+    ⁃ Pastikan juga untuk lazyload gambar alternatif yang ditampilkan saat mouseover atau tindakan pengguna lainnya.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
     * 🛠 [mfranzke/loading-attribute-polyfill: GitHub](https://github.com/mfranzke/loading-attribute-polyfill/)
     * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
-    * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
+    * 📖 [5 Cara Brilian untuk Lazy Load Gambar untuk Pemuatan Halaman Lebih Cepat - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
-* [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
+* [ ] **Gambar responsif:** ![medium] Pastikan untuk menyajikan gambar yang sesuai dengan ukuran layar Anda.
 
-    *Why:*
-    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
+    *Kenapa:*
+    > Perangkat kecil tidak memerlukan gambar yang lebih besar dari viewport mereka. Disarankan untuk memiliki beberapa versi dari satu gambar dalam berbagai ukuran.
 
-    *How:*
-    > ⁃ Create different image sizes for the devices you want to target. <br>
-    ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
+    *Gimana:*
+    > ⁃ Buat berbagai ukuran gambar untuk perangkat yang ingin Anda targetkan. <br>
+    ⁃ Gunakan `srcset` dan `picture` untuk menyajikan beberapa varian dari setiap gambar.
 
-     * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+     * 📖 [Gambar responsif - Pelajari pengembangan web | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ kembali ke atas](#cara-menggunakan)**
+
+ 
 
 ## JavaScript
 
 ![javascript]
 
-- [ ] **JS Minification:** ![high] All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
+- [ ] **Pemampatan JS:** ![high] Semua file JavaScript sudah diperkecil, komentar, spasi putih, dan baris baru dihapus dari file produksi *(masih berlaku jika menggunakan HTTP/2)*.
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and break will reduce the size of your JavaScript files and speed up your site's page load times and obviously lighten the download for your user.
+    *Kenapa:*
+    > Menghapus semua spasi, komentar, dan baris yang tidak perlu akan mengurangi ukuran file JavaScript Anda dan mempercepat waktu pemuatan halaman situs Anda serta meringankan unduhan bagi pengguna Anda.
 
-    *How:*
-    > ⁃ Use the tools suggested below to minify your files automatically before or during your build or your deployment.
+    *Gimana:*
+    > ⁃ Gunakan alat yang disarankan di bawah ini untuk memperkecil file Anda secara otomatis sebelum atau selama proses build atau deployment.
 
     * 🛠 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
     * 🛠 [Online JavaScript Compressor](http://refresh-sf.com)
-    * 📖 [Short read: How is HTTP/2 different? Should we still minify and concatenate?](https://scaleyourcode.com/blog/article/28)
+    * 📖 [Bacaan singkat: Bagaimana HTTP/2 berbeda? Haruskah kita masih memperkecil dan menggabungkan?](https://scaleyourcode.com/blog/article/28)
 
-* [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
+* [ ] **Tidak ada JavaScript di dalam:** ![medium] *(Hanya berlaku untuk situs web)* Hindari memiliki beberapa kode JavaScript yang disematkan di tengah-tengah body. Gabungkan kode JavaScript Anda ke dalam file eksternal atau di dalam `<head>` atau di akhir halaman Anda (sebelum `</body>`).
 
-    *Why:*
-    > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
+    *Kenapa:*
+    > Menempatkan kode JavaScript yang disematkan langsung di dalam `<body>` dapat memperlambat halaman Anda karena dimuat saat DOM sedang dibangun. Pilihan terbaik adalah menggunakan file eksternal dengan `async` atau `defer` untuk menghindari pemblokiran DOM. Pilihan lain adalah menempatkan beberapa skrip di dalam `<head>`. Biasanya kode analitik atau skrip kecil yang perlu dimuat sebelum DOM mulai diproses.
 
-    *How:*
-    > Ensure that all your files are loaded using `async` or `defer` and decide wisely the code that you will need to inject in your `<head>`.
+    *Gimana:*
+    > Pastikan semua file Anda dimuat menggunakan `async` atau `defer` dan tentukan dengan bijak kode yang perlu Anda masukkan ke dalam `<head>`.
 
      * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
 
-* [ ] **Non-blocking JavaScript:** ![high] JavaScript files are loaded asynchronously using `async` or deferred using `defer` attribute.
+* [ ] **JavaScript Non-blocking:** ![high] File JavaScript dimuat secara asinkron menggunakan atribut `async` atau ditunda menggunakan atribut `defer`.
 
     ```html
-    <!-- Defer Attribute -->
+    <!-- Atribut Defer -->
     <script defer src="foo.js"></script>
 
-    <!-- Async Attribute -->
+    <!-- Atribut Async -->
     <script async src="foo.js"></script>
     ```
 
-    *Why:*
-    > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
+    *Kenapa:*
+    > JavaScript memblokir parsing normal dari dokumen HTML, jadi ketika parser mencapai tag `<script>` (terutama jika berada di dalam `<head>`), ia berhenti untuk mengambil dan menjalankannya. Menambahkan `async` atau `defer` sangat dianjurkan jika skrip Anda ditempatkan di bagian atas halaman Anda tetapi kurang berharga jika hanya sebelum tag `</body>`. Namun, ini adalah praktik yang baik untuk selalu menggunakan atribut ini untuk menghindari masalah performa.
 
-    *How:*
-    > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag. <br>
-    ⁃ If you have small scripts, maybe use inline script place above async scripts.
+    *Gimana:*
+    > ⁃ Tambahkan `async` (jika skrip tidak bergantung pada skrip lain) atau `defer` (jika skrip bergantung pada atau diandalkan oleh skrip async) sebagai atribut pada tag skrip Anda. <br>
+    ⁃ Jika Anda memiliki skrip kecil, mungkin gunakan skrip inline yang ditempatkan di atas skrip async.
 
     * 📖 [Remove Render-Blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS)
     * 📖 [Defer loading JavaScript](https://varvy.com/pagespeed/defer-loading-javascript.html)
 
-* [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
+* [ ] **Pustaka JS yang dioptimalkan dan diperbarui:** ![medium] Semua pustaka JavaScript yang digunakan dalam proyek Anda diperlukan (lebih baik menggunakan Vanilla JavaScript untuk fungsi sederhana), diperbarui ke versi terbaru dan tidak membebani JavaScript Anda dengan metode yang tidak perlu.
 
-    *Why:*
-    > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
+    *Kenapa:*
+    > Sebagian besar waktu, versi baru datang dengan optimasi dan perbaikan keamanan. Anda harus menggunakan kode yang paling dioptimalkan untuk mempercepat proyek Anda dan memastikan bahwa Anda tidak memperlambat situs web atau aplikasi Anda tanpa plugin yang usang.
 
-    *How:*
-    > If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
-    > [Greenkeeper](https://greenkeeper.io/) can automatically look for your dependencies and suggest an update every time a new version is out.
+    *Gimana:*
+    > Jika proyek Anda menggunakan paket NPM, [npm-check](https://www.npmjs.com/package/npm-check) adalah pustaka yang cukup menarik untuk memperbarui / meng-upgrade pustaka Anda.
+    > [Greenkeeper](https://greenkeeper.io/) dapat secara otomatis mencari dependensi Anda dan menyarankan pembaruan setiap kali versi baru keluar.
 
     * 📖 [You may not need jQuery](http://youmightnotneedjquery.com/)
     * 📖 [Vanilla JavaScript for building powerful web applications](https://plainjs.com/)
 
-- [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
+- [ ] **Periksa batas ukuran dependensi:** ![low] Pastikan untuk menggunakan pustaka eksternal dengan bijak, sebagian besar waktu, Anda dapat menggunakan pustaka yang lebih ringan untuk fungsi yang sama.
 
-    *Why:*
-    > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
+    *Kenapa:*
+    > Anda mungkin tergoda untuk menggunakan salah satu dari 745.000 paket yang dapat Anda temukan di [npm](https://www.npmjs.com/), tetapi Anda perlu memilih paket terbaik untuk kebutuhan Anda. Misalnya, MomentJS adalah pustaka yang luar biasa tetapi dengan banyak metode yang mungkin tidak pernah Anda gunakan, itulah sebabnya Day.js dibuat. Ini hanya 2kB vs 16.4kB gz untuk Moment.
 
-    *How:*
-    > Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
+    *Gimana:*
+    > Selalu bandingkan dan pilih pustaka terbaik dan lebih ringan untuk kebutuhan Anda. Anda juga dapat menggunakan alat seperti [npm trends](http://www.npmtrends.com/) untuk membandingkan jumlah unduhan paket NPM atau [Bundlephobia](https://bundlephobia.com/) untuk mengetahui ukuran dependensi Anda.
 
     * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
     * 🛠 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
     * 🛠 [js-dependency-viewer - npm](https://www.npmjs.com/package/js-dependency-viewer)
     * 📖 [Size Limit: Make the Web lighter — Martian Chronicles, Evil Martians’ team blog](https://evilmartians.com/chronicles/size-limit-make-the-web-lighter)
 
-- [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
+- [ ] **Profiling JavaScript:** ![medium] Periksa masalah performa dalam file JavaScript Anda (dan CSS juga).
 
-    *Why:*
-    > JavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience.
+    *Kenapa:*
+    > Kompleksitas JavaScript dapat memperlambat performa runtime. Mengidentifikasi masalah ini sangat penting untuk menawarkan pengalaman pengguna yang paling lancar.
 
-    *How:*
-    > Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
+    *Gimana:*
+    > Gunakan alat Timeline di Chrome Developer Tool untuk mengevaluasi event skrip dan menemukan yang mungkin memakan waktu terlalu lama.
 
      * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
     * 📖 [JavaScript Profiling With The Chrome Developer Tools — Smashing Magazine](https://www.smashingmagazine.com/2012/06/javascript-profiling-chrome-developer-tools/)
@@ -495,186 +500,186 @@ List of the tools you can use to test or monitor your website or application:
     * 📖 [Chapter 22 - Profiling the Frontend - Blackfire](https://blackfire.io/docs/book/22-frontend-profiling)
     * 📖 [30 Tips To Improve Javascript Performance](http://www.monitis.com/blog/30-tips-to-improve-javascript-performance/)
 
-- [ ] **Use of Service Workers:** ![medium] You are using Service Workers in your PWA to cache data or execute possible heavy tasks without impacting the user experience of your application.
+- [ ] **Penggunaan Service Workers:** ![medium] Anda menggunakan Service Workers dalam PWA Anda untuk menyimpan data atau menjalankan tugas berat yang mungkin tanpa mempengaruhi pengalaman pengguna aplikasi Anda.
    
     * 📖 [Service Workers: an Introduction  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/primers/service-workers/)
     * 📖 [Measuring the Real-world Performance Impact of Service Workers  |  Web  |  Google Developers](https://developers.google.com/web/showcase/2016/service-worker-perf)
     * 📖 [What Are Service Workers and How They Help Improve Performance](https://www.keycdn.com/blog/service-workers/)
     * 📹 [How does a service worker work? - YouTube](https://www.youtube.com/watch?v=__xAtWgfzvc)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ kembali ke atas](#cara-menggunakan)**
+ 
 
 ## Server
 
 ![server-side]
 
-- [ ] **Your website is using HTTPS:** ![high]
+- [ ] **Situs web Anda menggunakan HTTPS:** ![high]
 
-    *Why:*
-    > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
+    *Kenapa:*
+    > HTTPS tidak hanya untuk situs web e-commerce, tetapi untuk semua situs web yang bertukar data. Data yang dibagikan oleh pengguna atau data yang dibagikan ke entitas eksternal. Browser modern saat ini membatasi fungsionalitas untuk situs yang tidak aman. Misalnya: geolokasi, notifikasi push, dan service workers tidak berfungsi jika instans Anda tidak menggunakan HTTPS. Dan hari ini jauh lebih mudah untuk mengatur proyek dengan sertifikat SSL daripada sebelumnya (dan gratis, berkat [Let's Encrypt](https://letsencrypt.org/)).
 
- * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
- * 📖 [Enabling HTTPS Without Sacrificing Your Web Performance - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
- * 📖 [How HTTPS Affects Website Performance](https://wp-rocket.me/blog/https-affects-website-performance/)
- * 📖 [HTTP versus HTTPS versus HTTP2 - The real story | Tune The Web](https://www.tunetheweb.com/blog/http-versus-https-versus-http2/)
- * 📖 [HTTP vs HTTPS — Test them both yourself](https://www.httpvshttps.com/)
+ * 📖 [Mengapa Menggunakan HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
+ * 📖 [Mengaktifkan HTTPS Tanpa Mengorbankan Performa Web Anda - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
+ * 📖 [Bagaimana HTTPS Mempengaruhi Performa Situs Web](https://wp-rocket.me/blog/https-affects-website-performance/)
+ * 📖 [HTTP versus HTTPS versus HTTP2 - Cerita Sebenarnya | Tune The Web](https://www.tunetheweb.com/blog/http-versus-https-versus-http2/)
+ * 📖 [HTTP vs HTTPS — Uji keduanya sendiri](https://www.httpvshttps.com/)
 
-- [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
+- [ ] **Berat halaman < 1500 KB (idealnya < 500 KB):** ![high] Kurangi ukuran halaman + sumber daya sebanyak mungkin.
 
-    *Why:*
-    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, network connection, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
+    *Kenapa:*
+    > Idealnya Anda harus mencoba menargetkan < 500 KB tetapi keadaan web menunjukkan bahwa median Kilobytes adalah sekitar 1500 KB (bahkan di ponsel). Tergantung pada pengguna target Anda, koneksi jaringan, perangkat, penting untuk mengurangi sebanyak mungkin total Kilobytes Anda untuk memiliki pengalaman pengguna terbaik yang mungkin.
 
-    *How:*
-    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
+    *Gimana:*
+    > ⁃ Semua aturan di dalam Daftar Periksa Performa Front-End akan membantu Anda mengurangi sebanyak mungkin sumber daya dan kode Anda.
 
-    * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
-    * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
-    * 🛠 [web - Measure full page size in Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
+    * 📖 [Berat Halaman](https://httparchive.org/reports/page-weight#bytesTotal)
+    * 🛠 [Berapa Biaya Situs Saya?](https://whatdoesmysitecost.com/)
+    * 🛠 [Mengukur ukuran halaman penuh di Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
 
-- [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
+- [ ] **Waktu muat halaman < 3 detik:** ![high] Kurangi sebanyak mungkin waktu muat halaman Anda untuk dengan cepat menyampaikan konten Anda kepada pengguna Anda.
 
-    *Why:*
-    > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
+    *Kenapa:*
+    > Semakin cepat situs web atau aplikasi Anda, semakin kecil kemungkinan tingkat pentalan meningkat, dengan kata lain, Anda memiliki lebih sedikit peluang untuk kehilangan pengguna atau calon klien Anda. Cukup banyak penelitian tentang subjek ini membuktikan hal itu.
 
-    *How:*
-    > Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
+    *Gimana:*
+    > Gunakan alat online seperti [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) atau [WebPageTest](https://www.webpagetest.org/) untuk menganalisis apa yang bisa memperlambat Anda dan gunakan Daftar Periksa Performa Front-End untuk meningkatkan waktu muat Anda.
 
-    * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
-    * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
-    * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
+    * 🛠 [Bandingkan kecepatan situs seluler Anda](https://www.thinkwithgoogle.com/feature/mobile/)
+    * 🛠 [Uji Kecepatan dan Performa Situs Web Seluler Anda - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
+    * 📖 [Waktu Muat Halaman Rata-Rata untuk 2018 - Bagaimana perbandingan Anda? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
 
-- [ ] **Time To First Byte < 1.3 seconds:** ![high] Reduce as much as you can the time your browser waits before receiving data.
+- [ ] **Time To First Byte < 1.3 detik:** ![high] Kurangi sebanyak mungkin waktu yang ditunggu browser sebelum menerima data.
 
-    * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
-    * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
+    * 📖 [Apa itu Waiting (TTFB) di DevTools, dan apa yang harus dilakukan](https://scaleyourcode.com/blog/article/27)
+    * 📖 [Memantau server Anda dengan alat gratis itu mudah](https://scaleyourcode.com/blog/article/7)
     * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
-    * 🛠 [Global latency testing tool](https://latency.apex.sh)
+    * 🛠 [Alat pengujian latensi global](https://latency.apex.sh)
 
-* [ ] **Cookie size:** ![medium] If you are using cookies, be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+* [ ] **Ukuran cookie:** ![medium] Jika Anda menggunakan cookie, pastikan setiap cookie tidak melebihi 4096 byte dan nama domain Anda tidak memiliki lebih dari 20 cookie.
 
-    *Why:*
-    > Cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+    *Kenapa:*
+    > Cookie dipertukarkan dalam header HTTP antara server web dan browser. Penting untuk menjaga ukuran cookie serendah mungkin untuk meminimalkan dampaknya pada waktu respons pengguna.
 
-    *How:*
-    > Eliminate unnecessary cookies.
+    *Gimana:*
+    > Hilangkan cookie yang tidak perlu.
 
-    * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
+    * 📖 [Spesifikasi Cookie: RFC 6265](https://tools.ietf.org/html/rfc6265)
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-    * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
-    * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
-    * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
+    * 🛠 [Batasan Cookie Browser](http://browsercookielimits.squawky.net/)
+    * 📖 [Performa Situs Web: Cookie Tidak Begitu Enak - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
+    * 📖 [Praktik Terbaik Performa Web Google #3: Minimalkan Overhead Permintaan - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
- * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
- * 📖 [Combine external JavaScript](https://varvy.com/pagespeed/combine-external-javascript.html)
+- [ ] **Meminimalkan permintaan HTTP:** ![high] Selalu pastikan bahwa setiap file yang diminta penting untuk situs web atau aplikasi Anda.
+ * 📖 [Gabungkan CSS eksternal](https://varvy.com/pagespeed/combine-external-css.html)
+ * 📖 [Gabungkan JavaScript eksternal](https://varvy.com/pagespeed/combine-external-javascript.html)
 
-- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
+- [ ] **Gunakan CDN untuk menyampaikan aset Anda:** ![medium] Gunakan CDN untuk menyampaikan konten Anda lebih cepat di seluruh dunia.
 
  * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
  * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve files from the same protocol:** ![high] Avoid having your website serving files coming from source using HTTP on your website which is using HTTPS for example. If your website is using HTTPS, external files should come from the same protocol.
+- [ ] **Menyajikan file dari protokol yang sama:** ![high] Hindari situs web Anda menyajikan file yang berasal dari sumber yang menggunakan HTTP di situs web Anda yang menggunakan HTTPS misalnya. Jika situs web Anda menggunakan HTTPS, file eksternal harus berasal dari protokol yang sama.
 
-- [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
- * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
+- [ ] **Menyajikan file yang dapat dijangkau:** ![high] Hindari meminta file yang tidak dapat dijangkau (404).
+ * 📖 [Cara menghindari permintaan buruk](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
- * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
+- [ ] **Tetapkan header cache HTTP dengan benar:** ![high] Tetapkan header HTTP untuk menghindari jumlah roundtrip yang mahal antara browser Anda dan server.
+ * 📖 [Menggunakan cache-control untuk caching browser](https://varvy.com/pagespeed/cache-control.html)
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
+- [ ] **Kompresi GZIP / Brotli diaktifkan:** ![high] Gunakan metode kompresi seperti Gzip atau Brotli untuk mengurangi ukuran file JavaScript Anda. Dengan ukuran file yang lebih kecil, pengguna akan dapat mengunduh aset lebih cepat, yang mengakibatkan peningkatan performa.
 
- * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
- * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
- * 📖 [Learn more about Brotli Compression](https://www.brotli.pro/)
- * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
+ * 🛠 [Periksa kompresi GZIP](https://checkgzipcompression.com/)
+ * 🛠 [Periksa Kompresi Brotli](https://tools.keycdn.com/brotli-test)
+ * 📖 [Pelajari lebih lanjut tentang Kompresi Brotli](https://www.brotli.pro/)
+ * 📖 [Bisakah saya menggunakan... Brotli](https://caniuse.com/#feat=brotli)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ kembali ke atas](#cara-menggunakan)**
 
 ---
 ## Performances and JS Frameworks
 
 ### Angular
- * 📖 [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist)
+ * 📖 [Daftar Periksa Performa Angular](https://github.com/mgechev/angular-performance-checklist)
 
 ### React
 
- * 📖 [Optimizing Performance - React](https://reactjs.org/docs/optimizing-performance.html)
- * 📖 [React image manipulation | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
- * 📖 [Debugging React performance with React 16 and Chrome Devtools.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
-  * 📖 [Build Performant - React](https://web.dev/react/)
+ * 📖 [Mengoptimalkan Performa - React](https://reactjs.org/docs/optimizing-performance.html)
+ * 📖 [Manipulasi Gambar React | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
+ * 📖 [Debugging Performa React dengan React 16 dan Chrome Devtools.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
+ * 📖 [Membangun Performant - React](https://web.dev/react/)
 
 ### Vue
- * 📖 [Vue - Useful Links|Style Guide and Performance](https://learn-vuejs.github.io/vue-patterns/useful-links/)
+ * 📖 [Vue - Tautan Berguna | Panduan Gaya dan Performa](https://learn-vuejs.github.io/vue-patterns/useful-links/)
 
 ## Performances and CMS
 
 ### WordPress
 
-* 🛠 [Test Your Website Speed | WordPress Hosting by @WPEngine](https://wpengine.com/speed-tool/)
+* 🛠 [Uji Kecepatan Situs Web Anda | WordPress Hosting oleh @WPEngine](https://wpengine.com/speed-tool/)
 
-#### Articles
+#### Artikel
 
- * 📖 [19 Tips to Speed Up WordPress Performance (Updated)](https://www.wpbeginner.com/wordpress-performance-speed/)
- * 📖 [Speed Up Your WordPress - How to Save Images Optimized for Web](https://www.wpbeginner.com/beginners-guide/speed-wordpress-save-images-optimized-web/)
+ * 📖 [19 Tips untuk Mempercepat Performa WordPress (Diperbarui)](https://www.wpbeginner.com/wordpress-performance-speed/)
+ * 📖 [Mempercepat WordPress Anda - Cara Menyimpan Gambar yang Dioptimalkan untuk Web](https://www.wpbeginner.com/beginners-guide/speed-wordpress-save-images-optimized-web/)
 
-#### Plugins recommended
+#### Plugin yang Direkomendasikan
 
-* 🛠 [Caching Plugin for WordPress - Speed up your website with WP Rocket](https://wp-rocket.me/)
+* 🛠 [Plugin Caching untuk WordPress - Percepat situs web Anda dengan WP Rocket](https://wp-rocket.me/)
 * 🛠 [WP-Sweep | WordPress.org](https://wordpress.org/plugins/wp-sweep/)
 * 🛠 [Imagify Image Optimizer | WordPress.org](https://wordpress.org/plugins/imagify/)
 
 ---
 
-## Translations
+## Terjemahan
 
-The Front-End Performance Checklist wants to also be available in other languages! Don't hesitate to submit your contribution!
+Daftar Periksa Performa Front-End juga ingin tersedia dalam bahasa lain! Jangan ragu untuk mengirimkan kontribusi Anda!
 
-* 🇵🇹 Portuguese: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
-* 🇨🇳 Chinese: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
-* 🇷🇺 Russian: [lex111/Front-End-Performance-Checklist](https://github.com/lex111/Front-End-Performance-Checklist)
-* 🇫🇷 French: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
-* 🇰🇷 Korean: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
-* 🇪🇸 Spanish: [dagerzuga/Front-End-Performance-Checklist](https://github.com/dagerzuga/Front-End-Performance-Checklist)
-* 🇻🇳 Vietnamese : [huynhan147/Front-End-Performance-Checklist](https://github.com/huynhan147/FrontEnd-Performance-Checklist)
-* 🇯🇵 Japanese: [GameWith/Front-End-Performance-Checklist](https://github.com/GameWith/Front-End-Performance-Checklist)
-* 🇵🇱 Polish: [mbiesiad/Front-End-Performance-Checklist](https://github.com/mbiesiad/Front-End-Performance-Checklist)
-* 🇮🇷 Persian: [ms-fadaei/Front-End-Performance-Checklist](https://github.com/ms-fadaei/Front-End-Performance-Checklist)
-* 🇮🇹 Italian: [marbio/Front-End-Performance-Checklist](https://github.com/marbio/Front-End-Performance-Checklist)
+* 🇵🇹 Portugis: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
+* 🇨🇳 Tiongkok: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
+* 🇷🇺 Rusia: [lex111/Front-End-Performance-Checklist](https://github.com/lex111/Front-End-Performance-Checklist)
+* 🇫🇷 Prancis: [WilliamDASILVA/Front-End-Performance-Checklist](https://github.com/WilliamDASILVA/Front-End-Performance-Checklist)
+* 🇰🇷 Korea: [ParkSB/Front-End-Performance-Checklist](https://github.com/ParkSB/Front-End-Performance-Checklist)
+* 🇪🇸 Spanyol: [dagerzuga/Front-End-Performance-Checklist](https://github.com/dagerzuga/Front-End-Performance-Checklist)
+* 🇻🇳 Vietnam : [huynhan147/Front-End-Performance-Checklist](https://github.com/huynhan147/FrontEnd-Performance-Checklist)
+* 🇯🇵 Jepang: [GameWith/Front-End-Performance-Checklist](https://github.com/GameWith/Front-End-Performance-Checklist)
+* 🇵🇱 Polandia: [mbiesiad/Front-End-Performance-Checklist](https://github.com/mbiesiad/Front-End-Performance-Checklist)
+* 🇮🇷 Persia: [ms-fadaei/Front-End-Performance-Checklist](https://github.com/ms-fadaei/Front-End-Performance-Checklist)
+* 🇮🇹 Italia: [marbio/Front-End-Performance-Checklist](https://github.com/marbio/Front-End-Performance-Checklist)
+* 🇮🇩 Indonesia: [narr07/Front-End-Performance-Checklist](https://github.com/narr07/Front-End-Performance-Checklist)
 
-## Contributing
+## Berkontribusi
 
-**Open an issue or a pull request to suggest changes or additions.**
+**Buka masalah atau permintaan tarik untuk menyarankan perubahan atau penambahan.**
 
-## Support
+## Dukungan
 
-If you have any question or suggestion, don't hesitate to use Discord or Twitter:
+Jika Anda memiliki pertanyaan atau saran, jangan ragu untuk menggunakan Discord atau Twitter:
 
-* [Chat on Discord](https://discord.gg/btHQRkm)
+* [Chat di Discord](https://discord.gg/btHQRkm)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
-## Author
+## Penulis
 
-**Build with ❤️ by [David Dias](https://github.com/thedaviddias)
+**Dibuat dengan ❤️ oleh [David Dias](https://github.com/thedaviddias)**
 
-## Contributors
+## Kontributor
 
-This project exists thanks to all the people who contribute. [[Contribute]](.github/CONTRIBUTING.md).
+Proyek ini ada berkat semua orang yang berkontribusi. [[Berkontribusi]](.github/CONTRIBUTING.md).
 <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist/graphs/contributors">
     <img src="https://opencollective.com/front-end-checklist/contributors.svg?width=890" />
 </a>
 
+## Pendukung
 
-## Backers
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/front-end-checklist#backer)]
+Terima kasih kepada semua pendukung kami! 🙏 [[Menjadi pendukung](https://opencollective.com/front-end-checklist#backer)]
 
 <a href="https://opencollective.com/front-end-checklist#backers" target="_blank"><img src="https://opencollective.com/front-end-checklist/backers.svg?width=890"></a>
 
+## Sponsor
 
-## Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/front-end-checklist#sponsor)]
+Dukung proyek ini dengan menjadi sponsor. Logo Anda akan muncul di sini dengan tautan ke situs web Anda. [[Menjadi sponsor](https://opencollective.com/front-end-checklist#sponsor)]
 
 <a href="https://opencollective.com/front-end-checklist/sponsor/0/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/front-end-checklist/sponsor/1/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/1/avatar.svg"></a>
@@ -687,13 +692,13 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/front-end-checklist/sponsor/8/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/8/avatar.svg"></a>
 <a href="https://opencollective.com/front-end-checklist/sponsor/9/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/9/avatar.svg"></a>
 
-## License
+## Lisensi
 
 [MIT](LICENSE)
 
-All icons are provided by [Icons8](https://icons8.com/)
+Semua ikon disediakan oleh [Icons8](https://icons8.com/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ kembali ke atas](#cara-menggunakan)**
 
 [logo]: images/logo-front-end-performance-checklist.jpg
 [html]: images/html.png
