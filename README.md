@@ -682,12 +682,12 @@ All icons are provided by [Icons8](https://icons8.com/)
 
 **[⬆ back to top](#-table-of-contents)**
 
-[html]: https://github.com/thedaviddias/Front-End-Performance-Checklist/tree/main/images/html.png
-[css]: https://github.com/thedaviddias/Front-End-Performance-Checklist/tree/main/images/css.png
-[fonts]: https://github.com/thedaviddias/Front-End-Performance-Checklist/tree/main/images/fonts.png
-[images]: https://github.com/thedaviddias/Front-End-Performance-Checklist/tree/main/images/images.png
-[javascript]: https://github.com/thedaviddias/Front-End-Performance-Checklist/tree/main/images/javascript.png
-[server-side]: https://github.com/thedaviddias/Front-End-Performance-Checklist/tree/main/images/server-side.png
-[low]: https://github.com/thedaviddias/Front-End-Performance-Checklist/tree/main/images/priority/low.svg
-[medium]: https://github.com/thedaviddias/Front-End-Performance-Checklist/tree/main/images/priority/medium.svg
-[high]: https://github.com/thedaviddias/Front-End-Performance-Checklist/tree/main/images/priority/high.svg
+[html]: https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/refs/heads/main//images/html.png
+[css]: https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/refs/heads/main//images/css.png
+[fonts]: https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/refs/heads/main//images/fonts.png
+[images]: https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/refs/heads/main//images/images.png
+[javascript]: https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/refs/heads/main//images/javascript.png
+[server-side]: https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/refs/heads/main//images/server-side.png
+[low]: https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/refs/heads/main//images/priority/low.svg
+[medium]: https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/refs/heads/main//images/priority/medium.svg
+[high]: https://raw.githubusercontent.com/thedaviddias/Front-End-Performance-Checklist/refs/heads/main//images/priority/high.svg
