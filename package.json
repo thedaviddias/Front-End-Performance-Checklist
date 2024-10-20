@@ -1,0 +1,18 @@
+{
+  "name": "front-end-performance-checklist",
+  "version": "1.0.0",
+  "description": "The only Front-End Performance Checklist that runs faster than the others.",
+  "scripts": {
+    "format:check": "prettier --check README.md",
+    "format:fix": "prettier --write README.md && markdownlint README.md",
+    "prepare": "husky || true"
+  },
+  "keywords": [],
+  "author": "David Dias (https://thedaviddias.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "markdownlint-cli": "^0.42.0",
+    "prettier": "^3.3.3"
+  }
+}
