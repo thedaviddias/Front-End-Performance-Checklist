@@ -12,7 +12,7 @@ Performance is a huge subject, but it's not always a "back-end" or an "admin" to
 - [💎 Front-End Design Checklist](https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist)
 
 > [!TIP]
-> ⭐️ I've just launched a new curated list for [indie developers](https://github.com/thedaviddias/indie-dev-toolkit), feel free to check it out! ⭐️
+> ⭐️ I've recently launched [UX Patterns for Devs](https://git.new/uxpatterns) and a [curated list for indie developers](https://git.new/indiedevtoolkit), feel free to check it out! ⭐️
 
 ## 📚 Table of Contents
 
