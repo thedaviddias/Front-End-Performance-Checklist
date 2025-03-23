@@ -59,7 +59,7 @@ List of the tools you can use to test or monitor your website or application:
 - 🛠 [Yellow Lab Tools | Online test to help speeding up heavy web pages](https://yellowlab.tools/)
 - 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
 - 🛠 [DebugBear - Monitor website performance and Lighthouse scores](https://www.debugbear.com/)
-- 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
+- 🛠 [Gravity CI - Check your build artifacts sizes on every pull request.](https://gravity.ci/)
 - 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
 - 🛠 [LogRocket - Measure front-end performance in production apps](https://logrocket.com)
 
