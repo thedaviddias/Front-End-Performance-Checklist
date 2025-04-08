@@ -481,7 +481,7 @@ List of the tools you can use to test or monitor your website or application:
 
   _How:_
 
-  > Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
+  > Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package download counts, [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies, or [npm-compare.com](https://npm-compare.com/), which uses AI to recommend the most suitable packages based on your project needs.
 
   - 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
   - 🛠 [webpack-bundle-analyzer - npm](https://www.npmjs.com/package/webpack-bundle-analyzer)
