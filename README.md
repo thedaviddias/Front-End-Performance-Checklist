@@ -62,6 +62,7 @@ List of the tools you can use to test or monitor your website or application:
 - 🛠 [Gravity CI - Check your build artifacts sizes on every pull request.](https://gravity.ci/)
 - 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
 - 🛠 [LogRocket - Measure front-end performance in production apps](https://logrocket.com)
+- 🛠 [PageGuard - Free website health scanner (SEO, accessibility, performance & best practices)](https://pageguard.org)
 
 ### References
 
