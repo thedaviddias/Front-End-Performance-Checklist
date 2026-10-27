@@ -341,7 +341,7 @@ List of the tools you can use to test or monitor your website or application:
   - 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
   - 🛠 [ImageEngine - Image Webpage Loading Test](https://demo.imgeng.in)
   - 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
-
+  - 🛠 [ImgFlow – Free browser image compressor/converter (PNG/JPG/HEIC/WebP/AVIF)](https://imgflow.taoliapp.com/en/)
 - [ ] **Images format:** ![high] Choose your image format appropriately.
 
   _Why:_
